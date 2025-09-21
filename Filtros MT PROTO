@@ -1,0 +1,147 @@
+onUpdateCustomEvent: recibe mensajes enviados al controlador de eventos desde una instancia de API utilizando el método sendCustomEvent» .
+onAny: filtro general, si se define, captura todas las actualizaciones que no son capturadas por ningún otro filtro.
+onUpdateBroadcastProgress » : Se utiliza para recibir actualizaciones de una transmisión de mensajes en curso » * onUpdateNewMessage » - Nuevo mensaje en un chat privado o en un grupo básico .
+onUpdateMessageID » - Al mensaje enviado con identificador de cliente random_id se le asignó un identificador.
+onUpdateDeleteMessages » - Se eliminaron los mensajes.
+onUpdateUserTyping » - El usuario está preparando un mensaje: escribiendo, grabando, subiendo, etc. Esta actualización tiene una validez de 6 segundos. Si no se reciben más actualizaciones de este tipo después de 6 segundos, se debe considerar que el usuario dejó de hacer lo que estaba haciendo.
+onUpdateChatUserTyping » - El usuario está preparando un mensaje en un grupo: escribiendo, grabando, subiendo, etc. Esta actualización tiene una validez de 6 segundos. Si no se reciben más actualizaciones de este tipo después de 6 segundos, se debe considerar que el usuario dejó de hacer lo que estaba haciendo.
+onUpdateChatParticipants » - Se modificó la composición de los participantes del chat.
+onUpdateUserStatus » - Actualización del estado del contacto.
+onUpdateUserName » - Cambia el nombre, apellido y nombre de usuario del usuario.
+onUpdateNewAuthorization » - Se inició una nueva sesión en la cuenta del usuario actual a través de un dispositivo desconocido.
+onUpdateNewEncryptedMessage » - Nuevo mensaje cifrado.
+onUpdateEncryptedChatTyping » - El interlocutor está escribiendo un mensaje en un chat cifrado. El tiempo de actualización es de 6 segundos. Si transcurrido este tiempo no se produce ninguna actualización, se considerará que el interlocutor ha dejado de escribir.
+onUpdateEncryption » - Cambio de estado en un chat cifrado.
+onUpdateEncryptedMessagesRead » - El historial de comunicación en un chat cifrado se marcó como leído.
+onUpdateChatParticipantAdd » - Nuevo miembro del grupo.
+onUpdateChatParticipantDelete » - Un miembro ha abandonado el grupo.
+onUpdateDcOptions » - Cambios en las opciones de configuración del centro de datos.
+onUpdateNotifySettings » - Cambios en la configuración de notificaciones.
+onUpdateServiceNotification » - Un mensaje de servicio para el usuario.
+onUpdatePrivacy » - Se cambiaron las reglas de privacidad
+onUpdateUserPhone » - Se cambió el número de teléfono de un usuario
+onUpdateReadHistoryInbox » - Se leyeron los mensajes entrantes
+onUpdateReadHistoryOutbox » - Se leyeron los mensajes salientes
+onUpdateWebPage » - Se generó una vista previa instantánea de la página web
+onUpdateReadMessagesContents » - Se leyó el contenido de los mensajes en el cuadro de mensajes común
+onUpdateChannelTooLong » - Hay nuevas actualizaciones en el canal especificado, el cliente debe buscarlas.
+onUpdateChannel » - Se actualizó la información del canal/supergrupo ( canal y/o channelFull ).
+onUpdateNewChannelMessage » - Se envió un nuevo mensaje en un canal/supergrupo
+onUpdateReadChannelInbox » - Se leyeron los mensajes entrantes en un canal/supergrupo
+onUpdateDeleteChannelMessages » - Se eliminaron algunos mensajes en un supergrupo/canal
+onUpdateChannelMessageViews » - El contador de vistas de un mensaje en un canal ha cambiado
+onUpdateChatParticipantAdmin » - Se cambiaron los permisos de administrador de un usuario en un grupo básico
+onUpdateNewStickerSet » - Se instaló un nuevo conjunto de stickers
+onUpdateStickerSetsOrder » - Se cambió el orden de los conjuntos de pegatinas
+onUpdateStickerSets » - Los conjuntos de stickers instalados han cambiado, el cliente debe volver a recuperarlos como se describe en la documentación .
+onUpdateSavedGifs » - La lista de gifs guardados ha cambiado, el cliente debe recuperarla usando messages.getSavedGifs
+onUpdateBotInlineQuery » - Una consulta en línea entrante
+onUpdateBotInlineSend » - El resultado de una consulta en línea seleccionada por un usuario y enviada a su interlocutor. Consulta nuestra documentación sobre la recopilación de comentarios para obtener más información sobre cómo habilitar estas actualizaciones para tu bot.
+onUpdateEditChannelMessage » - Se editó un mensaje en un canal/supergrupo
+onUpdateBotCallbackQuery » - Se presionó un botón de devolución de llamada y los datos del botón se enviaron al bot que creó el botón
+onUpdateEditMessage » - Se editó un mensaje
+onUpdateInlineBotCallbackQuery » - Esta notificación la reciben los bots cuando se presiona un botón
+onUpdateReadChannelOutbox » - Se leyeron los mensajes salientes en un canal/supergrupo
+onUpdateDraftMessage » - Notifica un cambio en un borrador de mensaje .
+onUpdateReadFeaturedStickers » - Algunos stickers destacados fueron marcados como leídos
+onUpdateRecentStickers » - Se actualizó la lista de stickers recientes
+onUpdateConfig » - La configuración del lado del servidor ha cambiado; el cliente debe volver a obtener la configuración usando help.getConfig y help.getAppConfig .
+onUpdatePtsChanged » - La secuencia del cuadro de mensaje común PTS ha cambiado, el estado debe volver a obtenerse mediante updates.getState
+onUpdateChannelWebPage » - Se generó una vista previa de la página web de un enlace en un mensaje de canal/supergrupo
+onUpdateDialogPinned » - Se fijó/desfijó un diálogo
+onUpdatePinnedDialogs » - Se actualizaron los diálogos fijados
+onUpdateBotWebhookJSON » - Un nuevo evento entrante; solo para bots
+onUpdateBotWebhookJSONQuery » - Una nueva consulta entrante; solo para bots
+onUpdateBotShippingQuery » - Este objeto contiene información sobre una consulta de envío entrante.
+onUpdateBotPrecheckoutQuery » - Este objeto contiene información sobre una consulta de pre-pago entrante.
+onUpdatePhoneCall » - Una llamada telefónica entrante
+onUpdateLangPackTooLong » - Se ha cambiado un paquete de idioma, el cliente debe obtener manualmente las cadenas modificadas usando langpack.getDifference
+onUpdateLangPack » - Paquete de idioma actualizado
+onUpdateFavedStickers » - Se modificó la lista de stickers favoritos, el cliente debe llamar a messages.getFavedStickers para volver a obtener la nueva lista
+onUpdateChannelReadMessagesContents » - Se leyeron los mensajes del canal/supergrupo especificado
+onUpdateContactsReset » - Se eliminaron todos los contactos
+onUpdateChannelAvailableMessages » - Se ocultó el historial de un canal/supergrupo .
+onUpdateDialogUnreadMark » - Se modificó la marca manual de no leído de un chat
+onUpdateMessagePoll » - Los resultados de una encuesta han cambiado
+onUpdateChatDefaultBannedRights » - Se actualizaron los derechos prohibidos predeterminados en un chat normal
+onUpdateFolderPeers » - Se actualizó la lista de pares de una carpeta de pares
+onUpdatePeerSettings » - La configuración de un determinado par ha cambiado
+onUpdatePeerLocated » - Se actualizó la lista de pares cerca de usted
+onUpdateNewScheduledMessage » - Se agregó un mensaje a la cola de programación de un chat
+onUpdateDeleteScheduledMessages » - Se eliminaron (o enviaron) algunos mensajes programados de la cola de programación de un chat
+onUpdateTheme » - Se actualizó un tema de nube
+onUpdateGeoLiveViewed » - Se vio el mensaje de geoposición en vivo
+onUpdateLoginToken » - Se aceptó un token de inicio de sesión (para iniciar sesión a través de código QR).
+onUpdateMessagePollVote » - Un par específico ha votado en una encuesta
+onUpdateDialogFilter » - Se agregó una nueva carpeta
+onUpdateDialogFilterOrder » - Nuevo orden de carpetas
+onUpdateDialogFilters » - Los clientes deben actualizar la información de la carpeta
+onUpdatePhoneCallSignalingData » - Carga útil de señalización de llamadas entrantes
+onUpdateChannelMessageForwards » - El contador de reenvío de un mensaje en un canal ha cambiado
+onUpdateReadChannelDiscussionInbox » - Los comentarios entrantes en un hilo de discusión se marcaron como leídos
+onUpdateReadChannelDiscussionOutbox » - Los comentarios salientes en un hilo de discusión se marcaron como leídos
+onUpdatePeerBlocked » - Bloqueamos a un par, consulte aquí » para obtener más información sobre las listas de bloqueo.
+onUpdateChannelUserTyping » - Un usuario está escribiendo en un supergrupo, canal o hilo de mensajes
+onUpdatePinnedMessages » - Algunos mensajes fueron fijados en un chat
+onUpdatePinnedChannelMessages » - Los mensajes se fijaron o desfijaron en un canal o supergrupo
+onUpdateChat » - Se actualizó la información del chat ( chat y/o chatFull ).
+onUpdateGroupCallParticipants » - La lista de participantes de una determinada llamada grupal ha cambiado
+onUpdateGroupCall » - Se inició una nueva llamada grupal
+onUpdatePeerHistoryTTL » - El tiempo de vida de los mensajes enviados por el usuario actual en un chat específico ha cambiado
+onUpdateChatParticipant » - Un usuario se ha unido o ha abandonado un chat específico
+onUpdateChannelParticipant » - Un participante abandonó, se unió, fue baneado o fue administrado en un canal o supergrupo .
+onUpdateBotStopped » - Se detuvo o reinició un bot.
+onUpdateGroupCallConnection » - Nuevos parámetros WebRTC
+onUpdateBotCommands » - El conjunto de comandos de un determinado bot en un determinado chat ha cambiado.
+onUpdatePendingJoinRequests » - Alguien ha solicitado unirse a un chat o canal
+onUpdateBotChatInviteRequester » - Alguien ha solicitado unirse a un chat o canal (solo bots, los usuarios recibirán un updatePendingJoinRequests en su lugar)
+onUpdateMessageReactions » - Reacciones a nuevos mensajes » están disponibles
+onUpdateAttachMenuBots » - La lista de entradas del menú de adjuntos instaladas » ha cambiado, use messages.getAttachMenuBots para obtener la lista actualizada.
+onUpdateWebViewResultSent » - Indica a un bot que se cerró una vista web y se envió un mensaje en línea en nombre del usuario usando messages.sendWebViewResultMessage
+onUpdateBotMenuButton » - El comportamiento del botón de menú para el bot especificado ha cambiado
+onUpdateSavedRingtones » - La lista de sonidos de notificación guardados ha cambiado, use account.getSavedRingtones para obtener la nueva lista.
+onUpdateTranscribedAudio » - Se actualizó una transcripción de un mensaje de voz pendiente » iniciada con messages.transcribeAudio .
+onUpdateReadFeaturedEmojiStickers » - Algunos stickers de emojis personalizados destacados fueron marcados como leídos
+onUpdateUserEmojiStatus » - El estado de emoji de un determinado usuario ha cambiado
+onUpdateRecentEmojiStatuses » - La lista de estados emoji recientes ha cambiado
+onUpdateRecentReactions » - La lista de reacciones a mensajes recientes ha cambiado
+onUpdateMoveStickerSetToTop » - Se acaba de mover un conjunto de stickers a la parte superior, consulte aquí para obtener más información »
+onUpdateMessageExtendedMedia » - Compraste un medio pago » : esta actualización contiene el medio revelado.
+onUpdateChannelPinnedTopic » - Un tema del foro » fue fijado o desfijado.
+onUpdateChannelPinnedTopics » - Los temas fijados de un foro han cambiado.
+onUpdateUser » - Se actualizó la información del usuario ( usuario y/o usuarioCompleto ).
+onUpdateAutoSaveSettings » - Las configuraciones de guardado automático de medios han cambiado y deben volver a obtenerse mediante account.getAutoSaveSettings .
+onUpdateStory » - Se publicó una nueva historia.
+onUpdateReadStories » - Las historias de un par específico fueron marcadas como leídas.
+onUpdateStoryID » - Se cargó una historia exitosamente.
+onUpdateStoriesStealthMode » - Indica que se activó el modo sigiloso de las historias .
+onUpdateSentStoryReaction » - Indica que reaccionamos a una historia » .
+onUpdateBotChatBoost » - Se ha modificado el impulso de un canal o supergrupo (solo bots)
+onUpdateChannelViewForumAsMessages » - Los usuarios también pueden elegir mostrar los mensajes de todos los temas como si fueran enviados a un grupo normal, utilizando una configuración "Ver como mensajes" en el cliente local.
+onUpdatePeerWallpaper » - El fondo de pantalla » de un par determinado ha cambiado.
+onUpdateBotMessageReaction » - Solo bots: un usuario ha cambiado sus reacciones en un mensaje con reacciones públicas.
+onUpdateBotMessageReactions » - Solo bots: ha cambiado la cantidad de reacciones en un mensaje con reacciones anónimas.
+onUpdateSavedDialogPinned » - Se fijó/desfijó un cuadro de diálogo de mensaje guardado
+onUpdatePinnedSavedDialogs » - Se actualizaron los diálogos guardados fijados
+onUpdateSavedReactionTags » - La lista de nombres de etiquetas de reacción » asignadas por el usuario ha cambiado y se debe volver a obtener mediante messages.getSavedReactionTags » .
+onUpdateSmsJob » - Se recibió un nuevo trabajo de SMS
+onUpdateQuickReplies » - Se modificó la información sobre el orden de los accesos directos de respuesta rápida .
+onUpdateNewQuickReply » - Se creó un nuevo acceso directo de respuesta rápida .
+onUpdateDeleteQuickReply » - Se eliminó un acceso directo de respuesta rápida . Esto no generará actualizaciones de updateDeleteQuickReplyMessages , incluso si todos los mensajes del acceso directo también se eliminan con esta actualización.
+onUpdateQuickReplyMessage » - Se agregó un nuevo mensaje a un acceso directo de respuesta rápida » .
+onUpdateDeleteQuickReplyMessages » - Se eliminaron uno o más mensajes en un acceso directo de respuesta rápida » .
+onUpdateBotBusinessConnect » - Conectar o desconectar un bot empresarial o cambiar la configuración de conexión emitirá una actualización updateBotBusinessConnect al bot, con la nueva configuración y un connection_idque el bot usará para manejar actualizaciones y enviar mensajes como usuario.
+onUpdateBotNewBusinessMessage » - Se recibió un mensaje a través de un chat empresarial conectado » .
+onUpdateBotEditBusinessMessage » - Se editó un mensaje en un chat empresarial conectado » .
+onUpdateBotDeleteBusinessMessage » - Se eliminó un mensaje en un chat empresarial conectado » .
+onUpdateNewStoryReaction » - Representa una nueva reacción a una historia .
+onUpdateStarsBalance » - El saldo de Telegram Stars de la cuenta actual » ha cambiado.
+onUpdateBusinessBotCallbackQuery » - Se presionó un botón de devolución de llamada enviado a través de una conexión comercial y los datos del botón se enviaron al bot que creó el botón.
+onUpdateStarsRevenueStatus » - El saldo de estrellas de Telegram de un canal/bot que poseemos ha cambiado » .
+onUpdateBotPurchasedPaidMedia » - Solo bots: un usuario ha comprado un medio pago .
+onUpdatePaidReactionPrivacy » - Contiene la privacidad de reacción paga predeterminada actual, consulte aquí » para obtener más información.
+onUpdateSentPhoneCode » -
+onUpdateGroupCallChainBlocks » -
+onUpdateReadMonoForumBandeja de entrada » -
+onUpdateReadMonoForumBandeja de salida » -
+onUpdateMonoForumNoPaidException » -
