@@ -1,0 +1,5 @@
+settings = (new \danog\MadelineProto\Settings\Database\Mysql)
+    ->setUri('tcp://localhost')
+    ->setPassword('pass');
+
+MyEventHandler::startAndLoop('bot.madeline', $settings);
