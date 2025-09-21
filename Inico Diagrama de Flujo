@@ -1,0 +1,25 @@
+Api-sGoogle/
+│
+├── bots/
+│   ├── telegram/
+│   │   ├── js/                # Lógica principal en JavaScript (Api TegramBot)
+│   │   │   └── webview.js
+│   │   ├── php/               # Lógica en PHP (Crudo PHP Bot)
+│   │   │   └── auth.php
+│   │   └── README.md          # Explicación de los bots de Telegram
+│   └── ...                    # Aquí puedes agregar otros bots (ej: Whatsapp, Discord, etc.)
+│
+├── docs/
+│   ├── bazel/
+│   │   ├── install.md         # Guía de instalación de Bazel (unificada)
+│   │   └── ...                # Otras guías o secciones
+│   └── README.md              # Índice de documentación
+│
+├── scripts/
+│   ├── clone-via-https.sh     # Script o nota para clonar via HTTPS
+│   ├── clone-via-ssh.sh       # Script o nota para clonar via SSH
+│   └── ...                    # Otros scripts útiles
+│
+├── .gitignore
+├── README.md                  # Explicación general del proyecto y guía de inicio rápido
+└── LICENSE                    # (Opcional) Licencia de tu proyecto
