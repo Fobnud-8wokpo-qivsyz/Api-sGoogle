@@ -1,0 +1,6 @@
+Código: {{Navbar|TITLE=[[Main Page]]|CONTENT=[[Page1]] - [[Page2]] - [[Page3]] - [[Page4]]}}
+Descripción: Barra de navegación para páginas que pertenecen entre sí.
+Dónde: No se usa directamente en el artículo, sino como ayuda para crear plantillas de barras de navegación para grupos de artículos, que se colocarán sobre los artículos antes de cualquier otro contenido. Consulte plantillas reales en la categoría:Barras_de_navegación como ejemplos.
+Nota: Esta plantilla es adecuada para temas que incluyen pocos artículos (menos de una línea o hasta siete entradas), pero no para pilas de temas de varias capas organizadas en un árbol. Para temas extensos con una organización compleja en árbol, debemos usar categorías y presentarlas en los artículos mediante el árbol de categorías .
+Categoría :
+Plantillas de navegación
