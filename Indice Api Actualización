@@ -1,0 +1,1909 @@
+
+Regresar al índice de la documentación de la API
+
+Ir al índice del método de versión de código antiguo
+
+Acceso
+
+Cambiar la contraseña de 2FA: update2FA
+
+Obtener todos los chats, transmitir un mensaje a todos los chats: getDialogIds, getDialogs, getFullDialogs
+
+Obtenga la lista completa de participantes de un canal/grupo/supergrupo: getPwrChat
+
+Obtenga información completa sobre un usuario/chat/supergrupo/canal: getFullInfo
+
+Obtener información sobre un usuario/chat/supergrupo/canal: getInfo
+
+Obtener el ID de un usuario/chat/supergrupo/canal/actualización: getID
+
+Obtener información sobre el usuario conectado actualmente: getSelf
+
+Subir o descargar archivos de hasta 4 GB: uploadFrom , downloadTo
+
+Hacer una llamada telefónica y reproducir una canción.
+
+Crea un bot de chat secreto
+
+Anular un restablecimiento de contraseña 2FA pendiente, consulte aquí para obtener más información »: account.declinePasswordReset
+
+Acepte el token de inicio de sesión del código QR, iniciando sesión en la aplicación que lo generó: auth.acceptLoginToken
+
+Aceptar llamada: acceptCall
+
+Aceptar chat secreto: acceptSecretChat
+
+Acepte los nuevos términos de servicio: help.acceptTermsOfService
+
+Activar o desactivar una suscripción a Telegram Star »: payment.changeStarsSubscription
+
+Activar o desactivar un nombre de usuario comprado en fragment.com asociado a un bot que poseemos: bots.toggleUsername
+
+Activar o desactivar un nombre de usuario comprado en fragment.com asociado a un supergrupo o canal de nuestra propiedad: channels.toggleUsername
+
+Activar o desactivar un nombre de usuario adquirido de fragment.com asociado al usuario conectado actualmente: account.toggleUsername
+
+Activa el modo sigiloso de las historias, consulta aquí » para más información: stories.activateStealthMode
+
+Agregar GIF a la lista de GIF guardados: messages.saveGif
+
+Agregue una vista previa de la mini aplicación principal, consulte aquí » para obtener más información: bots.addPreviewMedia
+
+Añade una pegatina a un conjunto de pegatinas. El conjunto de pegatinas debe haber sido creado por el usuario/bot actual: stickers.addStickerToSet
+
+Agregar un usuario de Telegram existente como contacto: contacts.addContact
+
+Agregar o quitar una pegatina de la lista de pegatinas recientes: messages.saveRecentSticker
+
+Agrega un par a una lista de bloqueo, consulte aquí » para obtener más información: contacts.block
+
+Agrega un usuario a un chat y envía un mensaje de servicio: messages.addChatUser
+
+Los administradores con derechos de administrador ban_users » pueden permitir que los usuarios que apliquen una cierta cantidad de impulsos » al grupo eviten el modo lento » y otras » restricciones de supergrupos, consulte aquí » para obtener más información: channels.setBoostsToUnblockRestrictions
+
+Permitir o evitar que un bot cambie nuestro estado de emoji »: bots.toggleUserEmojiStatusPermission
+
+Permitir que el bot especificado nos envíe mensajes: bots.allowSendMessage
+
+Responda una consulta en línea, solo para bots: messages.setInlineBotResults
+
+Responde una consulta personalizada; solo para bots: bots.answerWebhookJSONQuery
+
+Solicitar un código de regalo de Telegram Premium »: payment.applyGiftCode
+
+Aplicar cambios a varios conjuntos de stickers: messages.toggleStickerSets
+
+Aplicar uno o más potenciadores » a un par: premium.applyBoost
+
+Asociar (o eliminar) un canal personal », que aparecerá en nuestra página de perfil personal »: account.updatePersonalChannel
+
+Asociar un grupo a un canal como grupo de discusión para ese canal: channels.setDiscussionGroup
+
+Asociar un conjunto de stickers al supergrupo: channels.setStickers
+
+Bloquear un archivo de forma asincrónica: flock
+
+Línea leída asincrónicamente: readLine
+
+Dormir asincrónicamente: dormir
+
+Escritura asincrónica en stdout/navegador: echo
+
+Banear/desbanear/expulsar a un usuario en un supergrupo/canal: channels.editBanned
+
+Codificación Base64URL: base64urlEncode
+
+Antes de ofrecer al usuario la opción de agregar un mensaje a un acceso directo de respuesta rápida, asegúrese de que no se haya alcanzado ninguno de los límites especificados aquí »: messages.checkQuickReplyShortcut
+
+Solo para propietarios de bots, obtener información de vista previa de la mini aplicación principal, consulte aquí » para obtener más información: bots.getPreviewInfo
+
+Los bots pueden invocar este método para volver a obtener el constructor updateBotBusinessConnect asociado con un connection_id de negocio específico, consulte aquí » para obtener más información sobre los bots de negocios conectados.: account.getBotBusinessConnection
+
+Las empresas » pueden anunciar su ubicación utilizando este método, consulte aquí » para obtener más información: account.updateBusinessLocation
+
+Sólo lo pueden utilizar los miembros de TSF para obtener información interna: help.getUserInfo
+
+Cancelar una suscripción a un bot: payment.botCancelStarsSubscription
+
+Cancelar una transmisión en curso: cancelBroadcast
+
+Cancelar el código que se envió para verificar un correo electrónico para usar como método de recuperación de 2FA: account.cancelPasswordEmail
+
+Cancelar el código de verificación de inicio de sesión: auth.cancelCode
+
+Cambiar la reacción de emoji predeterminada para usar en el menú de reacción rápida: el valor se sincroniza en todos los dispositivos y se puede obtener usando help.getConfig, campo reactions_default: messages.setDefaultReaction
+
+Cambiar la configuración de llamadas grupales: phone.toggleGroupCallSettings
+
+Cambiar la configuración de descarga automática de medios: account.saveAutoDownloadSettings
+
+Cambiar o eliminar el nombre de usuario de un supergrupo/canal: channels.updateUsername
+
+Cambiar la configuración de privacidad de la cuenta actual: account.setPrivacy
+
+Cambiar la configuración relacionada con una sesión: account.changeAuthorizationSettings
+
+Cambiar el tema del chat de un determinado chat: messages.setChatTheme
+
+Cambiar el par predeterminado que debe usarse al enviar mensajes, reacciones y votos de encuestas a un grupo específico: messages.saveDefaultSendAs
+
+Cambiar el estado de emoji de un usuario (invocado por bots, consulte aquí » para obtener más información sobre el flujo completo): bots.updateUserEmojiStatus
+
+Cambiar el número de teléfono de la cuenta actual: account.changePhone
+
+Cambiar la foto de un canal/supergrupo: channels.editPhoto
+
+Cambiar la configuración de notificaciones de reacción »: account.setReactionsNotifySettings
+
+Cambiar el conjunto de reacciones de mensajes » que se pueden usar en un determinado grupo, supergrupo o canal: messages.setChatAvailableReactions
+
+Cambia el nombre del chat y envía un mensaje de servicio: messages.editChatTitle
+
+Cambia la foto del chat y envía un mensaje de servicio en ella: messages.editChatPhoto
+
+Cambia la posición absoluta de una pegatina en el conjunto al que pertenece. El conjunto de pegatinas debe haber sido creado por el usuario/bot actual: stickers.changeStickerPosition
+
+Cambia el valor predeterminado de la configuración de Tiempo de vida, que se aplica a todos los chats nuevos: messages.setDefaultHistoryTTL
+
+Cambia la privacidad de las reacciones pagadas ya enviadas en un mensaje específico: messages.togglePaidReactionPrivacy
+
+Cambia el nombre de usuario del usuario actual: account.updateUsername
+
+Comprueba si está instalado un determinado complemento de controlador de eventos: hasPlugin
+
+Comprueba si una mini aplicación puede solicitar la descarga de un archivo específico: se llama al manejar eventos web_app_request_file_download »: bots.checkDownloadFileParams
+
+Comprueba si un nombre de usuario está libre y se puede asignar a un canal/supergrupo: channels.checkUsername
+
+Comprueba si hay una instancia de controlador de eventos: hasEventHandler
+
+Comprobar si tiene administradores: hasAdmins
+
+Comprueba si tiene pares de informes: hasReportPeers
+
+Comprueba si es una matriz o similar (recorrible y contable y arrayAccess): isArrayOrAlike
+
+Comprueba si el par está presente en la base de datos interna de pares: peerIsset
+
+Verifique si el código de recuperación 2FA enviado mediante auth.requestPasswordRecovery es válido, antes de pasarlo a auth.recoverPassword: auth.checkRecoveryPassword
+
+Comprueba si el par especificado es un bot: isBot
+
+Comprueba si el par especificado es un foro: isForum
+
+Compruebe si podemos procesar trabajos de SMS (solo clientes oficiales): smsjobs.isEligibleToJoin
+
+Comprueba la validez de un enlace de invitación al chat y obtén información básica sobre él: messages.checkChatInvite
+
+Comprueba si el historial de chat exportado desde otra aplicación de chat se puede importar a un chat específico de Telegram. Haz clic aquí para obtener más información »: messages.checkHistoryImportPeer
+
+Comprueba si existe un chat secreto: hasSecretChat
+
+Comprueba si el nombre corto proporcionado está disponible: stickers.checkShortName
+
+Compruebe si la unidad de reenvío de servidor de llamadas grupales está recibiendo actualmente las transmisiones con los ID de origen WebRTC especificados: phone.checkGroupCall
+
+Comprueba si el bot especificado puede enviarnos mensajes: bots.canSendMessage
+
+Comprueba si podemos publicar historias como el par especificado: stories.canSendStory
+
+Borrar todos los borradores: messages.clearAllDrafts
+
+Borrar todas las configuraciones de guardado automático específicas de pares: account.deleteAutoSaveExceptions
+
+Borrar comandos de bot para el alcance del bot y el código de idioma especificados: bots.resetBotCommands
+
+Borrar stickers recientes: messages.clearRecentStickers
+
+Borrar reacciones a mensajes usados ​​recientemente: messages.clearRecentReactions
+
+Borrar la información de pago guardada: payment.clearSavedInfo
+
+Borra la lista de estados de emoji usados ​​recientemente: account.clearRecentEmojiStatuses
+
+Conexión cercana con el cliente, conectado vía web: closeConnection
+
+Complete el inicio de sesión del usuario utilizando el código de inicio de sesión: completePhoneLogin
+
+Inicio de sesión 2FA completo: complete2faLogin
+
+Regístrate en Telegram: completeSignup
+
+Complete el proceso de importación del historial, importando todos los mensajes al chat.: messages.startHistoryImport
+
+Eliminar por completo un acceso directo de respuesta rápida: messages.deleteQuickReplyShortcut
+
+Confirme un número de teléfono para cancelar la eliminación de la cuenta, para más información haga clic aquí »: account.confirmPhone
+
+Confirma la recepción de mensajes por parte de un cliente, cancela el envío de notificaciones PUSH: messages.receivedMessages
+
+Conectar un bot empresarial » a la cuenta actual, o para cambiar la configuración de conexión actual: account.updateConnectedBot
+
+Convertir parámetros de MTProto en parámetros de API de bot: MTProtoToBotAPI
+
+Convertir parámetros TD a tdcli: tdToTdcli
+
+Convertir parámetros de TD a MTProto: tdToMTProto
+
+Convierte un mensaje y un conjunto de entidades a HTML: entitiesToHtml
+
+Convertir un regalo recibido » en Estrellas de Telegram: esto destruirá permanentemente el regalo, convirtiéndolo en starGift.convert_stars Estrellas de Telegram, agregadas al saldo del usuario: payment.convertStarGift
+
+Convierte un supergrupo en un gigagrupo, cuando lo soliciten las sugerencias de canales: channels.convertToGigagroup
+
+Convertir parámetros de API de bot a parámetros MTProto: botAPIToMTProto
+
+Convertir doble a versión binaria: packDouble
+
+Convertir entero a base256 long: packSignedLong
+
+Convertir entero a int con signo base256: packSignedInt
+
+Convertir parámetros tdcli a tdcli: tdcliToTd
+
+Convertir a camelCase: toCamelCase
+
+Convertir a snake_case: toSnakeCase
+
+Convertir valor a int base256 sin signo: packUnsignedInt
+
+Convierte una cadena en una secuencia amphp asíncrona: stringToStream
+
+Crear un enlace profundo de chat empresarial »: account.createBusinessChatLink
+
+Crear un tema de foro; requiere derechos de administración de temas: channels.createForumTopic
+
+Crea una llamada grupal o transmisión en vivo: phone.createGroupCall
+
+Crea un conjunto de pegatinas: stickers.createStickerSet
+
+Crear un supergrupo/canal: channels.createChannel
+
+Crear un tema: account.createTheme
+
+Crea y carga un nuevo fondo de pantalla: account.uploadWallPaper
+
+Crear matriz: arr
+
+Crear, editar o eliminar el programa de afiliados de un bot de nuestra propiedad: bots.updateStarRefProgram
+
+Crea un nuevo chat: messages.createChat
+
+Crea y devuelve un contador de Prometheus: getPromCounter
+
+Crea y devuelve un indicador de Prometheus: getPromGauge
+
+Crea y devuelve un histograma de Prometheus: getPromHistogram
+
+Crea y devuelve un resumen de Prometheus: getPromSummary
+
+Eliminar un enlace profundo de un chat empresarial »: account.deleteBusinessChatLink
+
+Eliminar un canal/supergrupo: channels.deleteChannel
+
+Eliminar una invitación de chat: messages.deleteExportedChatInvite
+
+Eliminar un chat: messages.deleteChat
+
+Eliminar una verificación de hechos de un mensaje: messages.deleteFactCheck
+
+Eliminar una carpeta importada mediante un enlace profundo a una carpeta de chat »: chatlists.leaveChatlist
+
+Eliminar una vista previa de la mini aplicación principal, consulte aquí » para obtener más información: bots.deletePreviewMedia
+
+Eliminar un enlace profundo de una carpeta de chat creada previamente »: chatlists.deleteExportedInvite
+
+Eliminar todos los fondos de pantalla instalados y volver al conjunto de fondos de pantalla predeterminado: account.resetWallPapers
+
+Eliminar todos los mensajes enviados por un participante específico de un supergrupo determinado: channels.deleteParticipantHistory
+
+Eliminar todas las invitaciones de chat revocadas: messages.deleteRevokedExportedChatInvites
+
+Eliminar todas las claves de autorización temporales excepto las especificadas: auth.dropTempAuthKeys
+
+Eliminar contactos por número de teléfono: contacts.deleteByPhones
+
+Eliminar el historial de mensajes de un tema del foro: channels.deleteTopicHistory
+
+Eliminar mensajes en un canal/supergrupo: channels.deleteMessages
+
+Eliminar uno o más mensajes de un acceso directo de respuesta rápida. Esto también generará una actualización de `updateDeleteQuickReplyMessages`: messages.deleteQuickReplyMessages`.
+
+Eliminar mensajes programados: messages.deleteScheduledMessages
+
+Eliminar documentos de Telegram Passport almacenados, para más información consulte la documentación del pasaporte »: account.deleteSecureValue
+
+Eliminar todo el historial de llamadas telefónicas: messages.deletePhoneCallHistory
+
+Eliminar el historial de un supergrupo: channels.deleteHistory
+
+Eliminar la cuenta del usuario de los servidores de Telegram: account.deleteAccount
+
+Elimina un dispositivo por su token y deja de enviarle notificaciones PUSH: account.unregisterDevice
+
+Elimina a un par de una lista de bloqueo, consulte aquí » para obtener más información: contacts.unblock
+
+Elimina un conjunto de stickers que hemos creado: stickers.deleteStickerSet
+
+Elimina un usuario de un chat y le envía un mensaje de servicio: messages.deleteChatUser
+
+Elimina el historial de comunicaciones: messages.deleteHistory
+
+Elimina mensajes por sus identificadores: messages.deleteMessages
+
+Elimina los mensajes reenviados desde un par específico a los mensajes guardados »: messages.deleteSavedHistory
+
+Elimina fotos de perfil. El método devuelve una lista de las fotos de identificación eliminadas correctamente: photos.deletePhotos
+
+Elimina varios contactos de la lista: contacts.deleteContacts
+
+Elimina algunas historias publicadas: stories.deleteStories
+
+Deshabilitar trabajos de SMS (solo clientes oficiales): smsjobs.leave
+
+Deshabilitar anuncios en el canal especificado, para todos los usuarios: channels.restrictSponsoredMessages
+
+Deshabilitar todos los nombres de usuario comprados de un supergrupo o canal: channels.deactivateAllUsernames
+
+Deshabilitar o volver a habilitar los anuncios de Telegram para la cuenta Premium actual: account.toggleSponsoredMessages
+
+Descartar llamada: discardCall
+
+Descartar chat secreto: discardSecretChat
+
+Descartar una sugerencia, consulte aquí para obtener más información »: help.dismissSuggestion
+
+Descartar nuevos pares pendientes agregados recientemente a una carpeta de chat con enlace profundo »: chatlists.hideChatlistUpdates
+
+Descartar o aprobar una solicitud para unirse a un chat relacionado con un chat o canal específico: messages.hideChatJoinRequest
+
+Descartar o aprobar todas las solicitudes de unión relacionadas con un chat o canal específico: messages.hideAllChatJoinRequests
+
+Mostrar o eliminar un regalo recibido » de nuestro perfil: payment.saveStarGift
+
+Descargar archivo a amphp/http-server respuesta: downloadToResponse
+
+Descargue el archivo a un flujo amphp y devuélvalo: downloadToReturnedStream
+
+Descargar archivo al navegador: downloadToBrowser
+
+Descargar archivo para llamar: downloadToCallable
+
+Descargar archivo al directorio: downloadToDir
+
+Descargar archivo para transmitir: downloadToStream
+
+Descargar archivo: downloadToFile
+
+Descarga un archivo al navegador utilizando el archivo de sesión especificado: downloadServer
+
+Editar un enlace profundo a una carpeta de chat »: chatlists.editExportedInvite
+
+Editar un enlace profundo de chat empresarial creado »: account.editBusinessChatLink
+
+Editar una vista previa de la mini aplicación principal, consulte aquí » para obtener más información: bots.editPreviewMedia
+
+Editar una invitación de chat exportada: messages.editExportedChatInvite
+
+Editar un mensaje de bot en línea: messages.editInlineBotMessage
+
+Editar una historia cargada: stories.editStory
+
+Editar tema del foro; requiere permisos de administración de temas: channels.editForumTopic
+
+Editar información sobre un participante determinado en una llamada grupal: phone.editGroupCallParticipant
+
+Editar la ubicación del geogrupo, consulte aquí » para obtener más información sobre los geogrupos: channels.editLocation
+
+Editar mensaje: messages.editMessage
+
+Editar pares en la carpeta de pares: folders.editPeerFolders
+
+Editar la lista de amigos cercanos, ver aquí » para más información: contactos.editAmigosCercanos
+
+Editar los derechos prohibidos predeterminados de un canal/supergrupo/grupo: messages.editChatDefaultBannedRights
+
+Editar la descripción de un grupo/supergrupo/canal: messages.editChatAbout
+
+Editar el nombre de un canal/supergrupo: channels.editTitle
+
+Editar el título de una llamada grupal o transmisión en vivo: phone.editGroupCallTitle
+
+Editar/crear una verificación de datos en un mensaje: messages.editFactCheck
+
+Edita la configuración de notificaciones de un usuario/grupo determinado, de todos los usuarios/todos los grupos: account.updateNotifySettings
+
+Habilitar trabajos de SMS (solo clientes oficiales): smsjobs.join
+
+Habilitar o deshabilitar la protección de contenido en un canal o chat: messages.toggleNoForwards
+
+Habilitar o deshabilitar etiquetas de carpeta »: messages.toggleDialogFilterTags
+
+Habilitar o deshabilitar la funcionalidad del foro en un supergrupo: channels.toggleForum
+
+Habilitar o deshabilitar el sistema antispam nativo: channels.toggleAntiSpam
+
+Habilitar o deshabilitar el menú de adjuntos del bot web »: messages.toggleBotInAttachMenu
+
+Habilitar/deshabilitar firmas de mensajes en canales: channels.toggleSignatures
+
+Habilitar/deshabilitar pares superiores: contactos.toggleTopPeers
+
+Cadena de escape para el convertidor de entidades HTML de MadelineProto: htmlEscape
+
+Cadena de escape para URL: markdownUrlEscape
+
+Cadena de escape para la sección de código de rebajas: markdownCodeEscape
+
+Cadena de escape para el bloque de código de rebajas: markdownCodeblockEscape
+
+Cadena de escape para Markdown: markdownEscape
+
+Ejecuta una acción de transmisión personalizada con todos los pares (usuarios, chats, canales) del bot: broadcastCustom
+
+Exportar una carpeta », creando un enlace profundo a una carpeta de chat »: chatlists.exportChatlistInvite
+
+Exportar un enlace de invitación para un chat: messages.exportChatInvite
+
+Autorización de exportación: exportAuthorization
+
+Extraer constructores de actualización de un constructor de actualizaciones: extractUpdates
+
+Extraer un ID de mensaje de un constructor de actualizaciones: extractMessageId
+
+Extraiga un constructor de mensajes de un constructor de actualizaciones: extractMessage
+
+Extraiga un constructor de mensaje de actualización de un constructor de actualizaciones: extractMessageUpdate
+
+Extraer información del archivo del mensaje de la API del bot: extractBotAPIFile
+
+Obtener (un subconjunto o todos) los mensajes en un acceso directo de respuesta rápida »: messages.getQuickReplyMessages
+
+Obtener transacciones de Telegram Stars: payment.getStarsTransactions
+
+Obtener una lista recomendada predeterminada de reacciones de etiquetas de mensajes guardadas: messages.getDefaultTagReactions
+
+Obtener una lista de opciones para regalar estrellas »: payment.getStarsGiveawayOptions
+
+Obtener todas las afiliaciones que hemos creado para un determinado par: pagos.getConnectedStarRefBots
+
+Obtener todos los conjuntos de stickers » propiedad del usuario actual: messages.getMyStickers
+
+Obtener todos los usuarios con cumpleaños que caen dentro de +1/-1 días, en relación al día actual: este método debe ser invocado por los clientes cada 6-8 horas, y si el resultado no está vacío, debe usarse para actualizar adecuadamente la información de cumpleaños almacenada en caché local en user.birthday: contacts.getBirthdays
+
+Obtenga información básica sobre todos los accesos directos de respuesta rápida existentes: messages.getQuickReplies
+
+Obtener stickers de emojis personalizados »: messages.getCustomEmojiDocuments
+
+Obtener información sobre la afiliación de un bot específico »: payment.getConnectedStarRefBot
+
+Obtenga información sobre un fragmento coleccionable, consulte aquí » para obtener más información sobre el flujo completo: fragment.getCollectibleInfo
+
+Obtenga vistas previas de la mini aplicación principal, consulte aquí » para obtener más información: bots.getPreviewMedias
+
+Obtener nuevos chats asociados con un enlace profundo a una carpeta de chats importada ». Debe invocarse como máximo cada chatlist_update_period segundos (según el parámetro de configuración del cliente relacionado »): chatlists.getChatlistUpdates
+
+Obtenga uno o más comprobaciones de datos, consulte aquí » para el flujo completo: messages.getFactCheck
+
+Obtener miniaplicaciones principales populares, para usarlas en la pestaña de aplicaciones de la búsqueda global »: bots.getPopularAppBots
+
+Obtener sonidos de notificación guardados: account.getSavedRingtones
+
+Obtenga la lista de historias activas (o activas y ocultas), consulte aquí » para obtener más información sobre cómo ver historias: stories.getAllStories
+
+Obtenga la lista completa de historias activas de un par específico: stories.getPeerStories
+
+Obtenga la lista completa de etiquetas de mensajes guardados creados por el usuario: messages.getSavedReactionTags
+
+Obtenga la lista completa de efectos de mensajes animados utilizables »: messages.getAvailableEffects
+
+Obtener las historias fijadas en el perfil de un compañero: stories.getPinnedStories
+
+Obtener el archivo de historias » de un par que controlamos: stories.getStoriesArchive
+
+Obtenga información actualizada sobre medios pagos, consulte aquí » para el flujo completo: messages.getExtendedMedia
+
+Obtiene una actualización de updatePaidReactionPrivacy con la privacidad de reacción paga predeterminada actual, consulte aquí » para obtener más información: messages.getPaidReactionPrivacy
+
+Descubra si se puede editar el título de un mensaje multimedia: messages.getMessageEditData
+
+Finalizar un trabajo de SMS (solo clientes oficiales): smsjobs.finishJob
+
+Bifurca un nuevo hilo verde y ejecuta la función pasada en segundo plano: callFork
+
+Reenvía una lista de mensajes a todos los pares (usuarios, chats, canales) del bot: broadcastForwardMessages
+
+Reenvía mensajes por sus ID: messages.forwardMessages
+
+Generar hash vectorial MTProto: genVectorHash
+
+Genere un token de inicio de sesión, para iniciar sesión mediante código QR: auth.exportLoginToken
+
+Generar un enlace profundo a una historia específica: stories.exportStoryLink
+
+Generar un enlace profundo de factura: pagos.exportInvoice
+
+Genera un enlace de perfil temporal para el usuario que ha iniciado sesión actualmente: contacts.exportContactToken
+
+Obtenga información sobre MTProxy/Anuncio de servicio público: help.getPromoData
+
+Obtener el registrador PSR: getPsrLogger
+
+Obtener la URL RTMP y la clave de transmisión para transmisiones en vivo RTMP. Se puede usar incluso antes de crear la transmisión en vivo RTMP con phone.createGroupCall (el indicador rtmp_stream debe estar activado): phone.getGroupCallStreamRtmpUrl
+
+Obtener el estado de los trabajos de SMS (solo clientes oficiales): smsjobs.getStatus
+
+Obtener espacios de nombres TL: getMethodNamespaces
+
+Obtener el serializador TL: getTL
+
+Obtén información sobre la promoción de Telegram Premium: help.getPremiumPromo
+
+Obtén las estadísticas de ingresos de Telegram Star »: payment.getStarsRevenueStats
+
+Obtener la longitud de cadena UTF-8 de Telegram: mbStrlen
+
+Obtener un documento por su hash SHA256, utilizado principalmente para gifs: messages.getDocumentByHash
+
+Obtenga una lista de regalos disponibles, consulte aquí » para más información: payment.getStarGifts
+
+Obtenga una lista de bots propiedad del usuario actual: bots.getAdminedBots
+
+Obtén una lista de canales/supergrupos que dejamos, requiere una sesión para llevar, consulta aquí » para más información: channels.getLeftChannels
+
+Obtenga una lista de estados de emoji de canal sugeridos predeterminados: account.getChannelDefaultEmojiStatuses
+
+Obtenga una lista de estados de emoji sugeridos predeterminados: account.getDefaultEmojiStatuses
+
+Obtenga una lista de pares que pueden usarse para unirse a una llamada grupal, presentándose como un usuario/canal específico: phone.getGroupCallJoinAs
+
+Obtenga una lista de mensajes patrocinados para un par, consulte aquí » para obtener más información: messages.getSponsoredMessages
+
+Obtenga un mensaje para mostrar al usuario al iniciar el bot: getWebMessage
+
+Obtenga un formulario de pago: payment.getPaymentForm
+
+Obtén un conjunto de stickers de emojis personalizados sugeridos que se pueden usar como foto de grupo: account.getDefaultGroupPhotoEmojis
+
+Obtén un conjunto de stickers de emojis personalizados sugeridos que se pueden usar como foto de perfil: account.getDefaultProfilePhotoEmojis
+
+Obtén un conjunto de stickers de emojis personalizados sugeridos que se pueden usar en un patrón de color de acento: account.getDefaultBackgroundEmojis
+
+Obtener los ID de administrador (iguales a todos los pares de informes de usuarios): getAdminIds
+
+Obtén todos los stickers archivados: messages.getArchivedStickers
+
+Obtenga todos los temas de chat disponibles »: account.getChatThemes
+
+Obtener todos los contactos, requiere una sesión para llevar, consulte aquí » para más información: contacts.getSaved
+
+Obtenga todos los grupos que se pueden usar como grupos de discusión: channels.getGroupsForDiscussion
+
+Obtener todos los stickers instalados: messages.getAllStickers
+
+Obtenga todas las llamadas pendientes y en ejecución, indexadas por ID de usuario: getAllCalls
+
+Obtenga todos los documentos guardados de Telegram Passport, para obtener más información, consulte los documentos del pasaporte »: account.getAllSecureValues
+
+Obtenga un enlace de invitación para una llamada grupal o transmisión en vivo: phone.exportGroupCallInvite
+
+Obtener y aumentar el contador de vistas de un mensaje enviado o reenviado desde un canal: messages.getMessagesViews
+
+Obtenga la configuración específica de la aplicación, consulte la configuración del cliente para obtener más información sobre el resultado: help.getAppConfig
+
+Obtener un cliente DNS asíncrono: getDNSClient
+
+Obtener cliente HTTP asíncrono: getHTTPClient
+
+Obtener información de autorización: getAuthorization
+
+Obtener la configuración de guardado automático: account.getAutoSaveSettings
+
+Obtener la configuración del lado del servidor en caché (o eventualmente recuperarla): getConfig
+
+Obtener la configuración del lado del servidor en caché: getCachedConfig
+
+Obtener el estado de la llamada: getCallState
+
+Obtener palabras clave de emoji modificadas »: messages.getEmojiKeywordsDifference
+
+Obtener estadísticas del canal: stats.getBroadcastStats
+
+Obtener mensajes del canal/supergrupo: channels.getMessages
+
+Obtener canales/supergrupos/geogrupos que administramos. Generalmente se llama cuando el usuario excede el límite de canales/supergrupos/geogrupos públicos propios y se le da la opción de eliminar uno de sus canales/supergrupos/geogrupos: channels.getAdminedPublicChannels
+
+Obtener chats en común con un usuario: messages.getCommonChats
+
+Obtener la configuración para las descargas de archivos CDN: help.getCdnConfig
+
+Obtener el contenido de un archivo remoto de forma asincrónica: fileGetContents
+
+Obtener el recuento de usuarios en línea en un chat: messages.getOnlines
+
+Obtener el número actual de regiones mapeadas en memoria, solo UNIX: getMaps
+
+Obtener una pista de contraseña actual: getHint
+
+Obtener días de vida de la cuenta: account.getAccountTTL
+
+Obtener información de diálogo de pares específicos: messages.getPeerDialogs
+
+Obtener diálogos marcados manualmente como no leídos: messages.getDialogUnreadMarks
+
+Obtener la configuración de diffie-hellman: getDhConfig
+
+Obtener un mensaje de discusión del grupo de discusión asociado a un canal para mostrarlo en la parte superior de la sección de comentarios, sin tener que unirse al grupo: messages.getDiscussionMessage
+
+Obtener información de descarga del archivo: getDownloadInfo
+
+Obtenga el enlace de descarga del archivo multimedia: getDownloadLink
+
+Obtener el controlador de eventos (o instancia del complemento): getEventHandler
+
+Obtener la extensión de la ubicación del archivo: getExtensionFromLocation
+
+Obtener la extensión del tipo mime: getExtensionFromMime
+
+Consigue stickers favoritos: messages.getFavedStickers
+
+Obtén stickers destacados: messages.getFeaturedStickers
+
+Obtener el elemento final de la matriz: fin
+
+Obtener carpetas: messages.getDialogFilters
+
+Obtener temas del foro por su ID: channels.getForumTopicsByID
+
+Obtenga la lista completa de métodos MTProto y API: getAllMethods
+
+Obtener la configuración de privacidad global: account.getGlobalPrivacySettings
+
+Obtener participantes de llamadas grupales: phone.getGroupParticipants
+
+Obtén las puntuaciones más altas de un juego enviadas mediante un bot en línea: messages.getInlineGameHighScores
+
+Obtener las puntuaciones más altas de un juego: messages.getGameHighScores
+
+Obtener canales inactivos y supergrupos: channels.getInactiveChannels
+
+Obtén información sobre las transmisiones RTMP en una llamada grupal o transmisión en vivo: phone.getGroupCallStreamChannels
+
+Obtenga información sobre un fondo de pantalla específico: account.getWallPaper
+
+Obtener información sobre un participante del canal/supergrupo: channels.getParticipant
+
+Obtener información sobre una invitación al chat: messages.getExportedChatInvite
+
+Obtener información sobre una tarjeta de crédito: payment.getBankCardData
+
+Obtener información sobre una llamada grupal: phone.getGroupCall
+
+Obtener información sobre un conjunto de stickers: messages.getStickerSet
+
+Obtenga información sobre un trabajo de SMS (solo clientes oficiales): smsjobs.getSmsJob
+
+Obtenga información sobre un enlace profundo no compatible; consulte aquí para obtener más información »: help.getDeepLinkInfo
+
+Obtenga información sobre las invitaciones de chat generadas por los administradores: messages.getAdminsWithInvites
+
+Obtener información sobre el archivo: getFileInfo
+
+Obtén información sobre varios fondos de pantalla: account.getMultiWallPapers
+
+Obtenga información sobre las invitaciones de chat de un chat específico: messages.getExportedChatInvites
+
+Obtener información sobre el usuario que inició sesión, no almacenada en caché: fullGetSelf
+
+Obtenga información sobre los usuarios que se unieron al chat mediante una invitación de chat específica: messages.getChatInviteImporters
+
+Obtenga información sobre un idioma en un paquete de localización: langpack.getLanguage
+
+Obtenga información sobre todos los idiomas en un paquete de localización: langpack.getLanguages
+
+Obtenga pegatinas de máscara instaladas: messages.getMaskStickers
+
+Obtener temas instalados: account.getThemes
+
+Obtener página de vista instantánea: messages.getWebPage
+
+Obtener el enlace e incrustar información de un mensaje en un canal/supergrupo: channels.exportMessageLink
+
+Obtener el historial de ubicación en vivo de un determinado usuario: messages.getRecentLocations
+
+Obtener cadenas del paquete de localización: langpack.getLangPack
+
+Obtener palabras clave de emojis localizadas »: messages.getEmojiKeywords
+
+Obtener el nombre localizado del usuario de soporte de Telegram: help.getSupportName
+
+Obtener el nombre localizado, el texto informativo y la descripción de un bot (o de la cuenta actual, si lo llama un bot): bots.getBotInfo
+
+Obtener sesiones iniciadas: account.getAuthorizations
+
+Obtener registrador: getLogger
+
+Obtener el número máximo de regiones mapeadas en memoria, solo UNIX: getMaxMaps
+
+Obtener la configuración de descarga automática de medios: account.getAutoDownloadSettings
+
+Obtener el perfil de memoria con memprof: getMemoryProfile
+
+Obtener rangos de mensajes para guardar el historial de chat del usuario: messages.getSplitRanges
+
+Obtenga la lista de reacciones de los mensajes, junto con el remitente de cada reacción: messages.getMessageReactionsList
+
+Obtener reacciones a los mensajes »: messages.getMessagesReactions
+
+Obtener estadísticas de mensajes: stats.getMessageStats
+
+Obtener mensajes en un hilo de respuestas: messages.getReplies
+
+Obtener el tipo MIME del búfer: getMimeFromBuffer
+
+Obtener el tipo MIME de la extensión del archivo: getMimeFromExtension
+
+Obtener el tipo mime del archivo: getMimeFromFile
+
+Obtenga más información sobre una solicitud de autorización de inicio de sesión de Seamless Telegram, para más información haga clic aquí »: messages.requestUrlAuth
+
+Obtenga los pares más utilizados: contactos.getTopPeers
+
+Obtenga el nombre, el código ISO, el nombre localizado y los códigos/patrones telefónicos de todos los países disponibles: help.getCountriesList
+
+Obtener métodos con espacios de nombres (método => espacio de nombres): getMethodsNamespaced
+
+Obtenga nuevas cadenas en el paquete de idioma: langpack.getDifference
+
+Obtener la configuración del pasaporte: help.getPassportConfig
+
+Obtener recibo de pago: payment.getPaymentReceipt
+
+Obtener la configuración de pares: messages.getPeerSettings
+
+Obtenga la configuración de la llamada telefónica que se pasará a la configuración compartida de libtgvoip: phone.getCallConfig
+
+Obtener información de llamadas telefónicas: getCall
+
+Obtener diálogos fijados: messages.getPinnedDialogs
+
+Obtener diálogos guardados anclados, consulte aquí » para más información: messages.getPinnedSavedDialogs
+
+Obtenga resultados de encuestas no anónimas: messages.getPollVotes
+
+Obtener resultados de la encuesta: messages.getPollResults
+
+Obtener vista previa de la página web: messages.getWebPagePreview
+
+Obtener la configuración de privacidad de la cuenta actual: account.getPrivacy
+
+Obtener un entero aleatorio: randomInt
+
+Obtener stickers recientes: messages.getRecentStickers
+
+Obtén los estados de emojis usados ​​recientemente: account.getRecentEmojiStatuses
+
+Obtener reacciones a mensajes usados ​​recientemente: messages.getRecentReactions
+
+Obtenga enlaces de t.me usados ​​recientemente: help.getRecentMeUrls
+
+Obtener GIF guardados: messages.getSavedGifs
+
+Obtenga el documento Telegram Passport guardado, para más información consulte la documentación del pasaporte »: account.getSecureValue
+
+Obtenga información de pago guardada: payment.getSavedInfo
+
+Obtener mensajes programados: messages.getScheduledHistory
+
+Obtener mensajes programados: messages.getScheduledMessages
+
+Obtener chat secreto: getSecretChat
+
+Obtener una cadena aleatoria segura de longitud especificada: aleatoria
+
+Obtener configuración de contenido sensible: account.getContentSettings
+
+Obtenga mensajes patrocinados para el canal: getSponsoredMessages
+
+Obtener estadísticas de una historia específica: stats.getStoryStats
+
+Obtén stickers adjuntos a una foto o video: messages.getAttachedStickers
+
+Obtén stickers con emojis: messages.getStickers
+
+Obtener cadenas de un paquete de idioma: langpack.getStrings
+
+Obtener carpetas sugeridas: messages.getSuggestedDialogFilters
+
+Obtener estadísticas de supergrupo: stats.getMegagroupStats
+
+Obtener contraseña de pago temporal: account.getTmpPassword
+
+Obtenga los ID de las historias con más lecturas para un conjunto de pares: stories.getPeerMaxIDs
+
+Obtener el registro de administración de un canal/supergrupo: channels.getAdminLog
+
+Obtenga el saldo actual de Telegram Stars de la cuenta actual (con peer=inputPeerSelf), o el saldo de estrellas del bot especificado en peer: payment.getStarsStatus
+
+Obtener la configuración actual de notificaciones de reacción »: account.getReactionsNotifySettings
+
+Obtenga la fecha exacta de lectura de uno de nuestros mensajes, enviado a un chat privado con otro usuario: messages.getOutboxReadDate
+
+Obtenga el archivo que se está reproduciendo actualmente: callGetCurrent
+
+Obtenga la cantidad de resultados que se encontrarían en una llamada messages.search con los mismos parámetros: messages.getSearchCounters
+
+Obtener los participantes de un supergrupo/canal: channels.getParticipants
+
+Obtenga la llamada telefónica con el ID de usuario especificado: getCallByPeer
+
+Obtenga el progreso de una transmisión actualmente en ejecución: getBroadcastProgress
+
+Obtenga la lista de reacciones e interacciones de una historia publicada en un canal, junto con el remitente de cada reacción: stories.getStoryReactionsList
+
+Obtenga el conjunto de paletas de colores de acento » que se pueden usar para acentos de mensajes: help.getPeerColors
+
+Obtenga el conjunto de paletas de colores de acento » que se pueden usar en los fondos de la página de perfil: help.getPeerProfileColors
+
+Obtenga los ID de telegrama de todos los contactos: contacts.getContactIDs
+
+Obtener información del tema: account.getTheme
+
+Obtener temas de un foro: channels.getForumTopics
+
+Obtener el tipo de par: getType
+
+Obtener mensajes no leídos donde nos mencionaron: messages.getUnreadMentions
+
+Obtén reacciones no leídas a los mensajes que enviaste: messages.getUnreadReactions
+
+Obtén usuarios y geochats cerca de ti, consulta aquí » para más información: contacts.getLocated
+
+Obtenga varias advertencias para mostrar al usuario en la interfaz web: getWebWarnings
+
+Obtener autorizaciones del widget de inicio de sesión web: account.getWebAuthorizations
+
+Obtener qué usuarios leyeron un mensaje específico: solo disponible para grupos y supergrupos con menos de chat_read_mark_size_threshold miembros, los recibos de lectura se almacenarán durante chat_read_mark_expire_period segundos después de que se envió el mensaje, consulte la configuración del cliente para obtener más información »: messages.getMessageReadParticipants
+
+Obtiene un mensaje de chat secreto: getSecretMessage
+
+Obtiene la configuración de notificaciones actual para un usuario/grupo determinado, de todos los usuarios/todos los grupos: account.getNotifySettings
+
+Obtiene conjuntos de stickers de emojis personalizados destacados: messages.getFeaturedEmojiStickers
+
+Obtiene información del propic de un usuario: getPropicInfo
+
+Obtiene el número actual de impulsos de un canal/supergrupo: premium.getBoostsStatus
+
+Obtiene el valor predeterminado de la configuración de tiempo de vida, que se aplica a todos los chats nuevos: messages.getDefaultHistoryTTL
+
+Obtiene la lista de conjuntos de stickers de emojis personalizados instalados actualmente: messages.getEmojiStickers
+
+Obtiene la acción del botón de menú para un usuario determinado o para todos los usuarios, previamente configurada usando bots.setBotMenuButton; los usuarios pueden ver esta información en el constructor botInfo: bots.getBotMenuButton
+
+Búsqueda global de publicaciones de canales públicos » (incluidos aquellos de los que no somos miembros) que contengan un hashtag específico: channels.searchPosts
+
+Busque historias a nivel mundial usando un hashtag o un área de medios de ubicación, consulte aquí » para obtener más información sobre el flujo completo: stories.searchPosts
+
+Obtuve reacciones a mensajes populares: messages.getTopReactions
+
+Ocultar información de MTProxy/Anuncio de servicio público: help.hidePromoData
+
+Ocultar o mostrar la lista de participantes en un supergrupo: channels.toggleParticipantsHidden
+
+Ocultar las historias activas de un par específico, evitando que se muestren en la barra de acciones de la pantalla de inicio: stories.toggleAllStoriesHidden
+
+Ocultar las historias activas de un usuario, evitando que se muestren en la barra de acciones de la pantalla de inicio, consulte aquí » para más información: stories.togglePeerStoriesHidden
+
+Ocultar o mostrar el historial de mensajes para nuevos usuarios de canales o supergrupos: channels.togglePreHistoryHidden
+
+Si la barra de acción para agregar contacto está activa, agregue ese usuario como contacto: contacts.acceptContact
+
+Si envió una factura solicitando una dirección de envío y especificó el parámetro is_flexible, el bot recibirá una actualización de updateBotShippingQuery. Use este método para responder a las consultas de envío: messages.setBotShippingResults
+
+Importar un enlace profundo a una carpeta de chat », uniéndose a algunos o todos los chats de la carpeta: chatlists.joinChatlistInvite
+
+Importa una invitación de chat y únete a un chat/supergrupo/canal privado: messages.importChatInvite
+
+Autorización de importación: importAuthorization
+
+Importa el historial de chat desde una aplicación de chat extranjera a un chat específico de Telegram. Haz clic aquí para obtener más información sobre los chats importados »: messages.initHistoryImport
+
+Importa contactos: guarda una lista completa en el servidor, agrega contactos ya registrados a la lista de contactos, devuelve los contactos agregados y su información: contacts.importContacts
+
+Incrementa el contador de vistas de una o más historias: stories.incrementStoryViews
+
+Indicar al servidor (desde el lado del usuario) que el usuario todavía está usando una aplicación web: messages.prolongWebView
+
+Inflar el tamaño de las fotos despojadas a la carga útil JPG completa: inflateStripped
+
+Informa al servidor sobre una compra realizada a través de la App Store: solo para aplicaciones oficiales: payment.assignAppStoreTransaction
+
+Informa al servidor sobre una compra realizada a través de Play Store: solo para aplicaciones oficiales: payment.assignPlayMarketTransaction
+
+Informa al servidor sobre la cantidad de actualizaciones de bot pendientes si no se han procesado durante mucho tiempo; solo para bots: help.setBotUpdatesStatus
+
+Informa al servidor que el usuario ha interactuado con un mensaje patrocinado de una de las formas enumeradas aquí »: messages.clickSponsoredMessage
+
+Inicializar una sesión de comida para llevar, consulte aquí » para más información: account.initTakeoutSession
+
+Inicializar conexión: initConnection
+
+Inicializar el truco de reinicio automático: initSelfRestart
+
+Iniciar un restablecimiento de contraseña 2FA: solo se puede usar si el usuario ya inició sesión, consulte aquí para obtener más información »: account.resetPassword
+
+Inicia el inicio de sesión con código QR: qrLogin
+
+Instalar un conjunto de stickers: messages.installStickerSet
+
+Instalar un tema: account.installTheme
+
+Instalar fondo de pantalla: account.installWallPaper
+
+Instalar/desinstalar fondo de pantalla: account.saveWallPaper
+
+Instala una foto previamente cargada como foto de perfil: photos.updateProfilePhoto
+
+Punto final interno utilizado por el servidor de descarga: processDownloadServerPing
+
+Uso interno: help.editUserInfo
+
+Invalidar los códigos de inicio de sesión especificados, consulte aquí » para obtener más información: account.invalidateSignInCodes
+
+Invitar a un conjunto de usuarios a una llamada grupal: phone.inviteToGroupCall
+
+Invitar usuarios a un canal/supergrupo: channels.inviteToChannel
+
+Invoque un método usando una conexión de Telegram Business Bot, consulte aquí » para obtener más información, incluida una lista de los métodos que se pueden incluir en este constructor: invokeWithBusinessConnection
+
+Invocar un método dentro de una sesión de comida para llevar, consulte aquí » para más información: invokeWithTakeout
+
+Invocar una solicitud sin suscribir la conexión utilizada para actualizaciones (esto está habilitado de manera predeterminada para consultas de archivos): invokeWithoutUpdates
+
+Invocar la consulta especificada utilizando la capa API especificada: invokeWithLayer
+
+Invocar con el rango de mensajes indicado: invokeWithMessagesRange
+
+Invoca una consulta después de completar con éxito consultas anteriores: invokeAfterMsgs
+
+Invoca una consulta después de completar con éxito una de las consultas anteriores: invokeAfterMsg
+
+Únase al programa de afiliados de un bot y conviértase en afiliado »: payment.connectStarRefBot
+
+Unirse a un canal/supergrupo: channels.joinChannel
+
+Unirse a una llamada grupal: phone.joinGroupCall
+
+Unirse a canales y supergrupos recientemente agregados a una carpeta de chat enlace profundo »: chatlists.joinChatlistUpdates
+
+Lanza un sorteo prepago »: payment.launchPrepaidGiveaway
+
+Abandonar el programa de afiliados de un bot »: pagos.editConnectedStarRefBot
+
+Abandonar un canal/supergrupo: channels.leaveChannel
+
+Abandonar una llamada grupal: phone.leaveGroupCall
+
+Listar todos los enlaces profundos de carpetas de chat » asociados a una carpeta: chatlists.getExportedInvites
+
+Lista de todos los enlaces profundos de chat empresarial creados »: account.getBusinessChatLinks
+
+Lista de todos los bots empresariales conectados actualmente »: account.getConnectedBots
+
+Cargar el gráfico de estadísticas del canal de forma asincrónica: stats.loadAsyncGraph
+
+Iniciar sesión en Telegram (a través de CLI o web): iniciar
+
+Cerrar sesión en una sesión autorizada activa por su hash: account.resetAuthorization
+
+Cerrar sesión en una sesión activa de Telegram web: account.resetWebAuthorization
+
+Registrador: registrador
+
+Iniciar sesión como bot: botLogin
+
+Iniciar sesión como usuario: phoneLogin
+
+Inicie sesión importando un token de autorización: auth.importWebTokenAuthorization
+
+Inicie sesión utilizando un token de inicio de sesión redirigido, generado en caso de falta de coincidencia de DC durante el inicio de sesión del código QR: auth.importLoginToken
+
+Cerrar sesión: logout
+
+Busque emojis personalizados asociados a un emoji UTF8: messages.searchCustomEmoji
+
+Busque actualizaciones de los términos de servicio de Telegram: help.getTermsOfServiceUpdate
+
+Parámetros de MTProto a TD: MTProtoToTd
+
+Parámetros de MTProto a TDCLI: MTProtoToTdcli
+
+Realizar un pago usando Telegram Stars, ver aquí » para más información: payment.sendStarsForm
+
+Convertir un usuario en administrador en un grupo básico: messages.editChatAdmin
+
+Convierte manualmente HTML en un mensaje y un conjunto de entidades: htmlToMessageEntities
+
+Convierte manualmente Markdown en un mensaje y un conjunto de entidades: markdownToMessageEntities
+
+Marcar manualmente el diálogo como no leído: messages.markDialogUnread
+
+Marcar un mensaje patrocinado específico » como leído: messages.viewSponsoredMessage
+
+Marcar un hilo como leído: messages.readDiscussion
+
+Marcar todas las historias hasta una cierta ID como leídas, para un par determinado; emitirá una actualización updateReadStories a todas las sesiones iniciadas: stories.readStories
+
+Marcar el historial del canal/supergrupo como leído: channels.readHistory
+
+Marcar el contenido del mensaje del canal/supergrupo como leído: channels.readMessageContents
+
+Marcar menciones como leídas: messages.readMentions
+
+Marcar reacciones de mensajes » como leídos: messages.readReactions
+
+Marcar nuevos stickers destacados como leídos: messages.readFeaturedStickers
+
+Marcar o desmarcar un sticker como favorito: messages.faveSticker
+
+Marcar mensaje patrocinado como leído: viewSponsoredMessage
+
+Marca el historial de mensajes como leído: messages.readHistory
+
+Marca el historial de mensajes dentro de un chat secreto como leído: messages.readEncryptedHistory
+
+Método para recuperar stickers destacados anteriormente: messages.getOldFeaturedStickers
+
+Modificar la configuración de guardado automático: account.saveAutoSaveSettings
+
+Modificar los derechos de administrador de un usuario en un supergrupo/canal: channels.editAdmin
+
+Notifica al remitente que el destinatario ha escuchado un mensaje de voz o visto un video: messages.readMessageContents
+
+Notificar al otro usuario en un chat privado que se tomó una captura de pantalla del chat: messages.sendScreenshotNotification
+
+Notificar al usuario que los datos del pasaporte enviados contienen algunos errores El usuario no podrá volver a enviarle sus datos de pasaporte hasta que se corrijan los errores (el contenido del campo para el que devolvió el error debe cambiar): users.setSecureValueErrors
+
+Obtener una determinada instancia del complemento del controlador de eventos: getPlugin
+
+Obtener una lista de códigos de regalo/sorteo de Telegram Premium » opciones: payment.getPremiumGiftCodeOptions
+
+Obtener una lista de opciones de regalo de Telegram Stars » como constructores starsGiftOption: payment.getStarsGiftOptions
+
+Obtener una lista de opciones de recarga de Telegram Stars » como constructores starsTopupOption: payment.getStarsTopupOptions
+
+Obtén una lista de suscripciones de Telegram Star activas, vencidas o canceladas »: payment.getStarsSubscriptions
+
+Obtenga una lista de comandos de bot para el alcance de bot y el código de idioma especificados: bots.getBotCommands
+
+Obtener una lista de canales donde el usuario puede publicar historias: stories.getChatsToSend
+
+Obtenga una lista de idiomas relacionados que deben usarse al obtener listas de palabras clave de emoji »: messages.getEmojiKeywordsLanguages
+
+Obtenga una lista de canales públicos con temas similares, seleccionados en función de las similitudes en sus bases de suscriptores: channels.getChannelRecommendations
+
+Obtenga una lista de mini aplicaciones sugeridas con programas de afiliados disponibles: payment.getSuggestedStarRefBots
+
+Obtenga un mensaje en línea preparado generado por una mini aplicación: se invoca al manejar eventos web_app_send_prepared_message: messages.getPreparedInlineMessage
+
+Obtener reacciones de mensajes disponibles »: messages.getAvailableReactions
+
+Obtener la configuración para la autorización de dos factores con contraseña: account.getPassword
+
+Obtener reenvíos de una historia como mensaje en chats públicos y reenvíos por canales públicos: stats.getStoryPublicForwards
+
+Obtenga información completa sobre un conjunto de historias por sus ID: stories.getStoriesByID
+
+Obtener información sobre las transacciones de Telegram Star » usando ID de transacción específicos: payment.getStarsTransactionsByID
+
+Obtenga información sobre el recuento de vistas, el recuento de reenvíos, las reacciones y los espectadores recientes de una o más historias: stories.getStoriesViews
+
+Obtén información sobre un código de regalo de Telegram Premium »: payment.checkGiftCode
+
+Obtén información sobre un sorteo de Telegram Premium »: payment.getGiveawayInfo
+
+Obtener información sobre un enlace profundo a una carpeta de chat »: chatlists.checkChatlistInvite
+
+Obtener información sobre un enlace directo Mini App: messages.getBotApp
+
+Obtenga la plantilla de interfaz de usuario de ID de API: getWebAPITemplate
+
+Obtenga el ID de la última historia leída de todos los pares cuando inicie sesión por primera vez, se devuelve como una lista de actualizaciones de updateReadStories, consulte aquí » para obtener más información: stories.getAllReadPeerStories
+
+Obtenga la lista de usuarios que han visto una historia específica que publicamos: stories.getStoryViewsList
+
+Obtener información del usuario desde un enlace de perfil temporal: contacts.importContactToken
+
+Obtenga qué pares estamos impulsando actualmente y cuántos espacios de impulso nos quedan: premium.getMyBoosts
+
+Obtiene una lista de mensajes, indicando a qué otros canales públicos se reenvió un mensaje de canal.: stats.getMessagePublicForwards
+
+Obtiene una lista de pares que se pueden usar para enviar mensajes en un grupo específico: channels.getSendAs
+
+Obtiene una tubería que se puede utilizar para cargar un archivo desde una transmisión: getStreamPipe
+
+Obtiene información sobre los aumentos que se aplicaron a un determinado canal o supergrupo (solo administradores): premium.getBoostsList
+
+Obtiene información sobre un archivo de exportación de chat, generado por una aplicación de chat extranjera, haga clic aquí para obtener más información sobre los chats importados »: messages.checkHistoryImport
+
+Solo aplicaciones oficiales, informa que no se entregó el código de autenticación de SMS: auth.reportMissingCode
+
+Solo para clientes oficiales, invocar con verificación push de Apple: invokeWithApnsSecret
+
+Solo para clientes oficiales, invocar con el token de integridad de Google Play: invokeWithGooglePlayIntegrity
+
+Una vez que el usuario ha confirmado sus detalles de pago y envío, el bot recibe una actualización de updateBotPrecheckoutQuery: messages.setBotPrecheckoutResults
+
+Solo es útil cuando se consumen actualizaciones de MadelineProto a través de una API en otro lenguaje (como Javascript), absolutamente no se recomienda cuando se escriben directamente bots de MadelineProto : getUpdates
+
+Abra una mini aplicación principal: messages.requestMainWebView
+
+Abra una mini aplicación de bot desde un enlace profundo directo de Mini App, enviando información del usuario después de la confirmación del usuario: messages.requestAppWebView
+
+Abre una mini aplicación de bot que envía información del usuario después de su confirmación: messages.requestWebView
+
+Abra una mini aplicación de bot: messages.requestSimpleWebView
+
+Abre un archivo en modo de solo anexar: openFileAppendOnly
+
+Opcional: notificar al servidor que el usuario está actualmente ocupado en una llamada: esto rechazará automáticamente todas las llamadas telefónicas entrantes hasta que finalice la llamada telefónica actual: phone.receivedCall
+
+Analizar, actualizar y almacenar configuraciones: updateSettings
+
+Pausa o reanuda un chat específico, desconectándolo temporalmente de todos los bots comerciales »: account.toggleConnectedBotPaused
+
+Pausa la reproducción del archivo de audio actual en la llamada: pausePlay
+
+Realice un análisis estático en una determinada clase de controlador de eventos para asegurarse de que satisface algunos requisitos de rendimiento: validateEventHandlerClass
+
+Desconectar permanentemente un chat específico de todos los bots comerciales » (equivalente a especificarlo en recipients.exclude_users durante la configuración inicial con account.updateConnectedBot »); para volver a conectar un chat desconectado usando este método, el usuario debe volver a conectar todo el bot invocando account.updateConnectedBot »: account.disablePeerConnectedBot
+
+Fijar un mensaje: messages.updatePinnedMessage
+
+Anclar o desanclar un cuadro de diálogo de mensaje guardado »: messages.toggleSavedDialogPin
+
+Fijar o desfijar temas del foro: channels.updatePinnedForumTopic
+
+Fijar o desfijar una o más historias: stories.togglePinned
+
+Fija algunas historias en la parte superior del perfil, consulta aquí » para más información: stories.togglePinnedToTop
+
+Anclar o desanclar un diálogo: messages.toggleDialogPin
+
+Reproducir archivo en llamada: callPlay
+
+Reproducir archivos en espera en una llamada: callPlayOnHold
+
+Módulo positivo: posmod
+
+Presione un botón de devolución de llamada en línea y obtenga una respuesta de devolución de llamada del bot: messages.getBotCallbackAnswer
+
+Proporcionar un lector con búfer para un archivo, URL o flujo de amplificador: openBuffered
+
+Proporcionar una secuencia para un archivo, URL o secuencia de amplificador: getStream
+
+Consultar un bot en línea: messages.getInlineBotResults
+
+Califica una llamada, devuelve información sobre el mensaje de calificación enviado al bot oficial de VoIP: phone.setCallRating
+
+Califica el mensaje de voz transcrito: messages.rateTranscribedAudio
+
+Volver a unirse a un canal privado asociado a una suscripción activa de Telegram Star »: payment.fulfillStarsSubscription
+
+Reaccionar a una historia: stories.sendReaction
+
+Reaccionar al mensaje: messages.sendReaction
+
+Actualizar la caché de pares completa para un par determinado: refreshFullPeerCache
+
+Actualizar la caché de pares para un par determinado: refreshPeerCache
+
+Reembolsar una transacción de Telegram Stars, consulte aquí » para más información: payment.refundStarsCharge
+
+Registrar el dispositivo para recibir notificaciones PUSH: account.registerDevice
+
+Eliminar una pegatina del conjunto al que pertenece. El conjunto de pegatinas debe haber sido creado por el usuario/bot actual: stickers.removeStickerFromSet
+
+Elimina todos los contactos sin una cuenta de Telegram asociada: contacts.resetSaved
+
+Cambiar el nombre de un acceso directo de respuesta rápida: messages.editQuickReplyShortcut
+
+Cambia el nombre de un conjunto de pegatinas: stickers.renameStickerSet
+
+Representa las estadísticas de Prometheus utilizando el renderizador especificado: renderPromStats
+
+Reordenar las vistas previas de una mini aplicación principal, consulte aquí » para obtener más información: bots.reorderPreviewMedias
+
+Reordenar nombres de usuario activos: channels.reorderUsernames
+
+Reordenar carpetas: messages.updateDialogFiltersOrder
+
+Reordenar los conjuntos de stickers instalados: messages.reorderStickerSets
+
+Reordenar diálogos anclados: messages.reorderPinnedDialogs
+
+Reordenar los temas del foro fijados: channels.reorderPinnedForumTopics
+
+Reordenar los cuadros de diálogo de mensajes guardados anclados »: messages.reorderPinnedSavedDialogs
+
+Reordenar atajos de respuesta rápida: messages.reorderQuickReplies
+
+Reordenar los nombres de usuario asociados a un bot de nuestra propiedad: bots.reorderUsernames
+
+Reordenar los nombres de usuario asociados con el usuario que ha iniciado sesión actualmente: account.reorderUsernames
+
+Reemplazar una pegatina en un conjunto de pegatinas »: stickers.replaceSticker
+
+Reemplazar el contenido de una lista de bloqueo completa, consulte aquí para obtener más información »: contacts.setBlocked
+
+Reportar un mensaje en un chat por violación de los Términos de Servicio de Telegram: messages.report
+
+Informar una reacción al mensaje: messages.reportReaction
+
+Informar de un falso positivo antispam nativo: channels.reportAntiSpamFalsePositive
+
+Reportar un nuevo chat entrante como spam, si la configuración de pares del chat nos permite hacerlo: messages.reportSpam
+
+Reportar a un compañero por violación de los Términos de Servicio de Telegram: account.reportPeer
+
+Reportar una foto de perfil de un diálogo: account.reportProfilePhoto
+
+Reportar un chat secreto como spam: messages.reportEncryptedSpam
+
+Reportar un mensaje patrocinado », ver aquí » para más información sobre el flujo completo: messages.reportSponsoredMessage
+
+Reportar una historia: stories.report
+
+Informar un error al par previamente establecido: reportar
+
+Informar del perfil de memoria con memprof: reportMemoryProfile
+
+Reporta algunos mensajes de un usuario en un supergrupo como spam; requiere derechos de administrador en el supergrupo: channels.reportSpam
+
+Representa una lista de categorías de emojis que se utilizarán al elegir un sticker: messages.getEmojiStickerGroups
+
+Representa una lista de categorías de emojis que se utilizarán al seleccionar emojis personalizados para establecer como estado de emoji personalizado: messages.getEmojiStatusGroups
+
+Representa una lista de categorías de emojis que se utilizarán al seleccionar emojis personalizados para establecer como foto de perfil: messages.getEmojiProfilePhotoGroups
+
+Representa una lista de categorías de emojis: messages.getEmojiGroups
+
+Solicitar llamada VoIP: requestCall
+
+Solicitar un código SMS a través de Firebase: auth.requestFirebaseSms
+
+Solicitar código de recuperación de una contraseña 2FA, solo para cuentas con un correo electrónico de recuperación configurado: auth.requestPasswordRecovery
+
+Solicitar chat secreto: requestSecretChat
+
+Reenvíe el código para verificar un correo electrónico para usarlo como método de recuperación de 2FA: account.resendPasswordEmail
+
+Reenvíe el código de inicio de sesión a través de otro medio, el tipo de código telefónico está determinado por el valor de retorno del auth.sendCode/auth.resendCode anterior: consulte inicio de sesión para obtener más información: auth.resendCode
+
+Restablecer todas las sesiones de inicio de sesión activas de Telegram web: account.resetWebAuthorizations
+
+Restablecer la calificación del mejor par: contacts.resetTopPeerRating
+
+Restablezca la contraseña 2FA utilizando el código de recuperación enviado mediante auth.requestPasswordRecovery: auth.recoverPassword
+
+Restablecer el correo electrónico de inicio de sesión »: auth.resetLoginEmail
+
+Restablecer el estado de actualización y recuperar todas las actualizaciones desde el principio: resetUpdateState
+
+Restablece todas las configuraciones de notificaciones de usuarios y grupos: account.resetNotifySettings
+
+Enlace profundo para resolver un chat empresarial »: account.resolveBusinessChatLink
+
+Resolver un número de teléfono para obtener información del usuario, si su configuración de privacidad lo permite: contacts.resolvePhone
+
+Reiniciar el bucle de actualización: reiniciar
+
+Reanuda la reproducción del archivo de audio actual en la llamada: resumePlay
+
+Volver a lanzar la excepción al bucle de eventos: rethrow
+
+Devolver todos los borradores de mensajes: messages.getAllDrafts
+
+Devolver la configuración actual: getSettings
+
+Devuelve un formulario de autorización de Telegram Passport para compartir datos con un servicio: account.getAuthorizationForm
+
+Devuelve una URL para una cuenta de la plataforma de anuncios de Telegram que se puede usar para configurar anuncios para el canal/bot en el par, pagados usando las estrellas de Telegram propiedad del par especificado, consulte aquí » para obtener más información: payment.getStarsRevenueAdsAccountUrl
+
+Devuelve una lista de fondos de pantalla disponibles: account.getWallPapers
+
+Devuelve una URL HTTP que permite iniciar sesión automáticamente en la plataforma de traducción y sugerir nuevas palabras clave para emojis. La URL será válida durante 30 segundos después de su generación: messages.getEmojiURL
+
+Devuelve la entrada del menú de archivos adjuntos para una mini aplicación de bot que se puede iniciar desde el menú de archivos adjuntos »: messages.getAttachMenuBot
+
+Devuelve información básica del chat sobre sus ID: messages.getChats
+
+Devuelve el contenido de un archivo web, al enviar la solicitud a través de Telegram, consulte la documentación del archivo web para obtener más información: upload.getWebFile
+
+Devuelve la configuración actual, incluida la configuración del centro de datos: help.getConfig
+
+Devuelve la lista completa de ID de emojis personalizados » que no se pueden usar en los estados de emojis del canal »: account.getChannelRestrictedStatusEmojis
+
+Devuelve identificadores de chats fijados o siempre incluidos de una carpeta de chat importada mediante un enlace profundo de carpeta de chat », que se sugiere dejar cuando se elimina la carpeta de chat: chatlists.getLeaveChatlistSuggestions
+
+Devuelve información sobre el centro de datos más cercano al usuario: help.getNearestDc
+
+Devuelve información sobre los próximos mensajes del tipo especificado en el chat dividido por días: messages.getSearchResultsCalendar
+
+Devuelve información sobre la disponibilidad de actualizaciones para la aplicación actual: help.getAppUpdate
+
+Devuelve las mini aplicaciones del bot del menú de adjuntos instalado »: messages.getAttachMenuBots
+
+Devuelve una lista de chats con configuraciones de notificación no predeterminadas: account.getNotifyExceptions
+
+Devuelve el texto localizado de un mensaje de texto con una invitación: help.getInviteText
+
+Devuelve los mensajes guardados » reenviados desde un par específico: messages.getSavedHistory
+
+Devuelve posiciones dispersas de mensajes del tipo especificado en el chat que se utilizarán para la implementación del desplazamiento de medios compartidos: messages.getSearchResultsPositions
+
+Devuelve el historial de conversaciones con un interlocutor / dentro de un chat: messages.getHistory
+
+Devuelve la lista de diálogos guardados actual, consulte aquí » para obtener más información: messages.getSavedDialogs
+
+Devuelve la lista de diálogos del usuario actual: messages.getDialogs
+
+Devuelve la lista de contactos del usuario actual: contactos.getContacts
+
+Devuelve la lista de usuarios bloqueados: contactos.getBlocked
+
+Devuelve la lista de mensajes por sus ID: messages.getMessages
+
+Devuelve la lista de fotos del usuario: photos.getUserPhotos
+
+Devuelve las listas de impulsos que se aplicaron a un canal/supergrupo por un usuario específico (solo administradores): premium.getUserBoosts
+
+Devuelve el nombre de la sesión: getSessionName
+
+Devuelve el usuario de soporte para la función "hacer una pregunta": help.getSupport
+
+Devuelve información de zona horaria que se puede usar en otras partes de la API, como para establecer el horario de apertura de Telegram Business »: help.getTimezonesList
+
+Devuelve los usuarios encontrados por la subcadena de nombre de usuario: contactos.search
+
+Devuelve si el usuario actual es un bot: isSelfBot
+
+Devuelve si el usuario actual es un usuario premium, en caché: isPremium
+
+Devuelve si el usuario actual es un usuario: isSelfUser
+
+Volver a cargar el archivo de Telegram: uploadFromTgfile
+
+Guardar un borrador de mensaje asociado a un chat: messages.saveDraft
+
+Guarde un mensaje en línea preparado para que lo comparta el usuario de la mini aplicación mediante un evento web_app_send_prepared_message: messages.savePreparedInlineMessage
+
+Guardar un tema: account.saveTheme
+
+Guardar o eliminar el sonido de notificación guardado: account.saveRingtone
+
+Guardar información de depuración de llamadas telefónicas: phone.saveCallLog
+
+Guarda registros de la aplicación en el servidor: help.saveAppLog
+
+Buscar conjuntos de stickers de emojis personalizados »: messages.searchEmojiStickerSets
+
+Busque mensajes y pares a nivel mundial: messages.searchGlobal
+
+Buscar mensajes: messages.search
+
+Busca stickers usando la búsqueda de palabras clave impulsada por IA: messages.searchStickers
+
+Buscar conjuntos de pegatinas: messages.searchStickerSets
+
+Guarde de forma segura el documento Telegram Passport. Para obtener más información, consulte la documentación del pasaporte »: account.saveSecureValue
+
+Enviar datos de señalización VoIP: phone.sendSignalingData
+
+Enviar una solicitud personalizada desde una aplicación de mini bot, activada por un evento web_app_invoke_custom_method »: bots.invokeWebViewCustomMethod
+
+Enviar un medio: messages.sendMedia
+
+Enviar un acceso directo de respuesta rápida »: messages.sendQuickReplyMessages
+
+Envíe un resultado obtenido usando messages.getInlineBotResults: messages.sendInlineBotResult
+
+Enviar un álbum o un grupo de medios: messages.sendMultiMedia
+
+Enviar un código de verificación por correo electrónico: account.sendVerifyEmailCode
+
+Enviar formulario de pago compilado: payment.sendPaymentForm
+
+Envíe el código de confirmación para cancelar la eliminación de la cuenta, para más información haga clic aquí »: account.sendConfirmPhoneCode
+
+Envía uno o más pares elegidos, según lo solicitado por el botón keyboardButtonRequestPeer: messages.sendBotRequestedPeer
+
+Envía datos de depuración de llamadas telefónicas al servidor: phone.saveCallDebug
+
+Envía mensajes programados de inmediato: messages.sendScheduledMessages
+
+Envíe el código de verificación del teléfono para el pasaporte de Telegram: account.sendVerifyPhoneCode
+
+Enviar evento de escritura del usuario actual a un chat secreto: messages.setEncryptedTyping
+
+Envía un formulario de autorización de Telegram Passport, compartiendo efectivamente datos con el servicio: account.acceptAuthorization
+
+Envía un evento de escritura del usuario actual (consulte SendMessageAction para todos los tipos de eventos) a un interlocutor o grupo de conversación: messages.setTyping
+
+Envía una solicitud personalizada; solo para bots: bots.sendCustomRequest
+
+Envía un documento: sendDocument
+
+Envía un gif: sendGif
+
+Envía una lista de mensajes a todos los pares (usuarios, chats, canales) del bot: broadcastMessages
+
+Envía un mensaje a un chat: messages.sendMessage
+
+Envía un mensaje a todos los pares del informe (administradores del bot): sendMessageToAdmins
+
+Envía un mensaje con un archivo adjunto a un chat secreto: messages.sendEncryptedFile
+
+Envía un mensaje: sendMessage
+
+Envía una foto: sendDocumentPhoto
+
+Envía una foto: sendPhoto
+
+Envía un mensaje de servicio a un chat secreto: messages.sendEncryptedService
+
+Envía una pegatina: sendSticker
+
+Envía un mensaje de texto a un chat secreto: messages.sendEncrypted
+
+Envía un vídeo: sendVideo
+
+Envía una voz: sendVoice
+
+Envía un audio: sendAudio
+
+Envía una actualización updateCustomEvent al controlador de eventos: sendCustomEvent
+
+Envía una o más reacciones pagadas de Telegram Star », transfiriendo Telegram Stars » al saldo de un canal: messages.sendPaidReaction
+
+Establecer el controlador de actualización NOOP, ignorando todas las actualizaciones: setNoop
+
+Configura un conjunto de stickers de emojis personalizado para supergrupos. Solo se puede usar después de alcanzar al menos el nivel de refuerzo especificado en el parámetro de configuración group_emoji_stickers_level_min: channels.setEmojiStickers.
+
+Establecer un fondo de pantalla personalizado » en un chat privado específico con otro usuario: messages.setChatWallPaper
+
+Configurar una lista de mensajes de ausencia de Telegram Business: account.updateBusinessAwayMessage
+
+Establezca una lista de mensajes de saludo de Telegram Business: account.updateBusinessGreetingMessage
+
+Establecer el período de autodestrucción de la cuenta: account.setAccountTTL
+
+Establecer un estado de emoji para un canal o supergrupo: channels.updateEmojiStatus
+
+Establecer un estado de emoji: account.updateEmojiStatus
+
+Establecer la lista de comandos del bot: bots.setBotCommands
+
+Establecer la configuración de privacidad global: account.setGlobalPrivacySettings
+
+Establezca el nombre localizado, el texto informativo y la descripción de un bot (o de la cuenta actual, si lo llama un bot): bots.setBotInfo
+
+Establezca el tiempo de vida máximo de todos los mensajes en el chat especificado: messages.setHistoryTTL
+
+Establecer o eliminar la introducción de Telegram Business »: account.updateBusinessIntro
+
+Establecer el archivo de salida o la transmisión para los paquetes de audio OPUS entrantes en una llamada: callSetOutput
+
+Establecer los pares a los que enviar los errores ocurridos en el bucle de eventos: setReportPeers
+
+Establecer configuraciones de contenido sensible (para ver u ocultar contenido NSFW): account.setContentSettings
+
+Establecer miniatura del conjunto de pegatinas: stickers.setStickerSetThumb
+
+Establecer la plantilla de IU de ID de API: setWebApiTemplate
+
+Establezca la respuesta de devolución de llamada a la pulsación de un botón por parte del usuario (solo bots): messages.setBotCallbackAnswer
+
+Establezca el par predeterminado que se utilizará para unirse a una llamada grupal en un cuadro de diálogo específico: phone.saveDefaultGroupCallJoinAs
+
+Establezca los derechos de administrador sugeridos predeterminados para los bots que se agregan como administradores a los canales. Consulte aquí para obtener más información sobre cómo manejarlos »: bots.setBotBroadcastDefaultAdminRights
+
+Establezca los derechos de administrador sugeridos predeterminados para los bots que se agregan como administradores a los grupos. Consulte aquí para obtener más información sobre cómo manejarlos »: bots.setBotGroupDefaultAdminRights
+
+Establecer el tiempo de vida de la sesión actual: account.setAuthorizationTTL
+
+Establecer el controlador de actualización del webhook: setWebhook
+
+Establezca si todos los usuarios deben unirse a un grupo de discusión para poder comentar una publicación »: channels.toggleJoinToSend
+
+Establezca si todos los usuarios deben solicitar la aprobación del administrador para unirse al grupo »: channels.toggleJoinRequest
+
+Establece la acción del botón de menú » para un usuario determinado o para todos los usuarios: bots.setBotMenuButton
+
+Se debe llamar después de que el usuario oculta la barra de reportar spam/agregar como contacto de un nuevo chat, lo que evita efectivamente que el usuario ejecute las acciones especificadas en la barra de acciones »: messages.hidePeerSettingsBar
+
+Mostrar u ocultar la ventana emergente de traducción del chat en tiempo real para un chat determinado: messages.togglePeerTranslations
+
+Especifique un conjunto de horarios de apertura de Telegram Business: account.updateBusinessWorkHours
+
+Inicie una conversación con un bot utilizando un parámetro de enlace profundo: messages.startBot
+
+Iniciar una llamada grupal programada: phone.startScheduledGroupCall
+
+Inicie varias instancias de MadelineProto y los controladores de eventos (habilita async): startAndLoopMulti
+
+Iniciar o detener la grabación de una llamada grupal: las transmisiones de audio y video grabadas se enviarán automáticamente a los mensajes guardados (el chat con nosotros mismos): phone.toggleGroupCallRecord
+
+Iniciar compartir pantalla en una llamada: phone.joinGroupCallPresentation
+
+Dejar de recibir notificaciones sobre las respuestas de discusión de un determinado usuario en @replies: contacts.blockFromReplies
+
+Detener el uso compartido de pantalla en una llamada grupal: phone.leaveGroupCallPresentation
+
+Detener el bucle de actualización: detener
+
+Detiene la reproducción de todos los archivos en la llamada, borra la lista de reproducción principal y la lista en espera: stopPlay
+
+Almacenar claves RSA para centros de datos CDN: getCdnConfig
+
+Envíe la información del pedido solicitado para su validación: payment.validateRequestedInfo
+
+Suscribirse o cancelar la suscripción a una llamada grupal programada: phone.toggleGroupCallStartSubscription
+
+Suscríbete a las actualizaciones del controlador de eventos para un canal o supergrupo del que no somos miembros: subscribeToUpdates
+
+Sugiere un nombre corto para un paquete de stickers determinado: stickers.suggestShortName
+
+División multibyte UTF-8 de Telegram: mbStrSplit
+
+Subcadena multibyte UTF-8 de Telegram: mbSubstr
+
+Terminar una llamada grupal: phone.discardGroupCall
+
+Para finalizar una sesión de comida para llevar, consulte aquí » para obtener más información: account.finishTakeoutSession
+
+Finalizar la interacción de vista web iniciada con messages.requestWebView, enviando el mensaje especificado al chat en nombre del usuario: messages.sendWebViewResultMessage
+
+Finaliza todas las sesiones autorizadas del usuario excepto la actual: auth.resetAuthorizations
+
+Fibras de prueba: testFibers
+
+Activar o desactivar las notificaciones de registro de contactos: account.setContactSignUpNotification
+
+Activar o desactivar el modo lento del supergrupo: si está habilitado, los usuarios solo podrán enviar un mensaje cada segundos segundos: channels.toggleSlowMode
+
+Transcribir mensaje de voz: messages.transcribeAudio
+
+Transferir la propiedad del canal: channels.editCreator
+
+Traducir un texto dado: messages.translateText
+
+Convierte un grupo básico en un supergrupo: messages.migrateChat
+
+Desinstalar un conjunto de stickers: messages.uninstallStickerSet
+
+Desempaquetar una int con signo base256: unpackSignedInt
+
+Descomprimir base256 con signo largo en cadena: unpackSignedLongString
+
+Desempaquetar base256 con signo largo: unpackSignedLong
+
+Desempaquetar binario doble: unpackDouble
+
+ID del archivo API del bot de descompresión: unpackFileId
+
+Desanclar todos los mensajes anclados: messages.unpinAllMessages
+
+Controlador de eventos no establecidos: unsetEventHandler
+
+Actualizar la configuración del trabajo de SMS (solo clientes oficiales): smsjobs.updateSettings
+
+Carpeta de actualización: messages.updateDialogFilter
+
+Actualiza tu cumpleaños, consulta aquí » para más información: account.updateBirthday
+
+Actualizar el color de acento y el emoji personalizado de fondo » de un canal: channels.updateColor
+
+Actualizar el color de acento y el emoji personalizado de fondo » de la cuenta actual: account.updateColor
+
+Actualizar la descripción de una etiqueta de mensaje guardado »: messages.updateSavedReactionTag
+
+Actualizar las palabras clave, emojis o coordenadas de máscara de un sticker: stickers.changeSticker
+
+Actualizar tema: account.updateTheme
+
+Actualiza la foto de perfil del usuario actual: photos.uploadProfilePhoto
+
+Actualiza el estado del usuario en línea: account.updateStatus
+
+Actualiza el perfil del usuario: account.updateProfile
+
+Sube una foto de perfil personalizada para un contacto o sugiere una nueva foto de perfil a un contacto: photos.uploadContactProfilePhoto
+
+Sube un archivo y asócialo a un chat (sin enviarlo realmente al chat): messages.uploadMedia
+
+Sube un archivo multimedia asociado a un chat importado, haz clic aquí para obtener más información »: messages.uploadImportedMedia
+
+Sube un archivo cifrado y asócialo a un chat secreto: messages.uploadEncryptedFile
+
+Subir archivo desde URL: uploadFromUrl
+
+Subir archivo desde un elemento invocable: uploadFromCallable
+
+Subir archivo desde la transmisión: uploadFromStream
+
+Subir archivo al chat secreto: uploadEncrypted
+
+Subir archivo: upload
+
+Sube el sonido de notificación, usa account.saveRingtone para convertirlo y agregarlo a la lista de sonidos de notificación guardados: account.uploadRingtone
+
+Subir tema: account.uploadTheme
+
+Sube una historia de Telegram: stories.sendStory
+
+Sube un documento sin enviarlo: uploadDocument
+
+Sube un gif sin enviarlo realmente: uploadGif
+
+Sube una foto sin enviarla al chat: uploadDocumentPhoto
+
+Sube una foto, sin enviarla: uploadPhoto
+
+Sube un sticker sin enviarlo: uploadSticker
+
+Sube un vídeo, sin enviarlo realmente: uploadVideo
+
+Sube una voz sin enviarla realmente al chat: uploadVoice
+
+Sube un audio sin enviarlo realmente: uploadAudio
+
+Utilice este método para obtener los estados en línea de todos los contactos con una cuenta de Telegram accesible: contacts.getStatuses
+
+Utilice este método para establecer la puntuación del usuario especificado en un juego enviado como un mensaje normal (solo bots): messages.setGameScore
+
+Utilice este método para establecer la puntuación del usuario especificado en un juego enviado como un mensaje en línea (solo bots): messages.setInlineGameScore
+
+Utilice esto para aceptar una solicitud de autorización de inicio de sesión de Seamless Telegram. Para obtener más información, haga clic aquí »: messages.acceptUrlAuth
+
+Utilizado por el usuario para transmitir datos desde una mini aplicación de bot de teclado de respuesta abierta al bot que la posee: messages.sendWebViewData
+
+Los usuarios también pueden elegir mostrar los mensajes de todos los temas de un foro como si fueran enviados a un grupo normal, utilizando una configuración "Ver como mensajes" en el cliente local: esta configuración solo afecta a la cuenta actual y se sincroniza con otras sesiones iniciadas usando este método: channels.toggleViewForumAsMessages
+
+Valida un nombre de usuario y verifica la disponibilidad: account.checkUsername
+
+Verificar un nuevo número de teléfono para asociarlo a la cuenta actual: account.sendChangePhoneCode
+
+Verificar un número de teléfono para el pasaporte de Telegram: account.verifyPhone
+
+Verificar una dirección de correo electrónico: account.verifyEmail
+
+Verifique un correo electrónico para usarlo como método de recuperación de 2FA: account.confirmPasswordEmail
+
+Ver y buscar medios enviados recientemente: messages.searchSentMedia
+
+Vota en una encuesta: messages.sendVote
+
+Cuando se llama, salta al siguiente archivo en la lista de reproducción: skipPlay
+
+Cuando la función de bloqueo de código de acceso del lado del cliente está habilitada, no se mostrarán los textos de los mensajes en las notificaciones PUSH entrantes: account.updateDeviceLocked
+
+¿Cuándo se almacenó en caché por última vez la información completa de este chat?: fullChatLastUpdated
+
+Si el archivo de audio que se está reproduciendo actualmente está en pausa: isPlayPaused
+
+Si el usuario recibirá notificaciones cuando los contactos se registren: account.getContactSignUpNotification
+
+Si esto es altervista: isAltervista
+
+Si podemos convertir cualquier archivo de audio/video a un archivo VoIP OGG OPUS, o si los archivos deben ser preconvertidos usando @libtgvoipbot: canConvertOgg
+
+Si podemos convertir cualquier archivo de audio/video usando ffmpeg: canUseFFmpeg
+
+Si somos una instancia de cliente de IPC: isIpc
+
+Si somos un proceso de servidor IPC (a diferencia de un controlador de eventos): isIpcWorker
+
+Si actualmente estamos conectados a los controladores de prueba: isTestMode
+
+Retirar fondos del saldo de estrellas de un canal o bot »: payment.getStarsRevenueWithdrawalUrl
+
+Envuelva un constructor de mensaje en un objeto de mensaje abstracto: wrapMessage
+
+Envuelva un constructor Pin en un objeto Pinned abstracto: wrapPin
+
+Envuelva un constructor de medios en un objeto de medios abstracto: wrapMedia
+
+Envuelva un constructor Update en un objeto Update abstracto: wrapUpdate
+
+No puede usar este método directamente, en su lugar modifique las configuraciones PFS y default_temp_auth_key_expires_in, consulte https://docs.madelineproto.xyz/docs/SETTINGS.html para obtener más información: auth.bindTempAuthKey
+
+No puedes usar este método directamente, en su lugar utiliza $MadelineProto->getDhConfig();: messages.getDhConfig
+
+No puedes usar este método directamente, utiliza en su lugar el controlador de eventos: updates.getChannelDifference
+
+No puedes usar este método directamente, utiliza en su lugar el controlador de eventos: updates.getDifference
+
+No puedes usar este método directamente, utiliza en su lugar el controlador de eventos: updates.getState
+
+No puedes usar este método directamente, consulta https://docs.madelineproto.xyz para obtener más información sobre el manejo de chats secretos: messages.acceptEncryption
+
+No puedes usar este método directamente, consulta https://docs.madelineproto.xyz para obtener más información sobre el manejo de chats secretos: messages.discardEncryption
+
+No puedes usar este método directamente, consulta https://docs.madelineproto.xyz para obtener más información sobre el manejo de chats secretos: messages.requestEncryption
+
+No puedes usar este método directamente, consulta https://docs.madelineproto.xyz#calls para obtener más información sobre el manejo de llamadas: phone.acceptCall
+
+No puedes usar este método directamente, consulta https://docs.madelineproto.xyz#calls para obtener más información sobre el manejo de llamadas: phone.confirmCall
+
+No puedes usar este método directamente, consulta https://docs.madelineproto.xyz#calls para obtener más información sobre el manejo de llamadas: phone.discardCall
+
+No puedes usar este método directamente, consulta https://docs.madelineproto.xyz#calls para obtener más información sobre el manejo de llamadas: phone.requestCall
+
+No puede usar este método directamente, utilice $MadelineProto->exportAuthorization() en su lugar, consulte https://docs.madelineproto.xyz/docs/LOGIN.html: auth.exportAuthorization
+
+No puede usar este método directamente, utilice $MadelineProto->importAuthorization($authorization) en su lugar, consulte https://docs.madelineproto.xyz/docs/LOGIN.html: auth.importAuthorization
+
+No puedes usar este método directamente, utiliza en su lugar el método botLogin (consulta https://docs.madelineproto.xyz para obtener más información): auth.importBotAuthorization
+
+No puedes usar este método directamente, utiliza en su lugar el método complete2falogin (consulta https://docs.madelineproto.xyz para obtener más información): auth.checkPassword
+
+No puedes usar este método directamente, utiliza en su lugar el método completePhoneLogin (consulta https://docs.madelineproto.xyz para obtener más información): auth.signIn
+
+No puedes usar este método directamente, utiliza en su lugar el método completeSignup (consulta https://docs.madelineproto.xyz para obtener más información): auth.signUp
+
+No puedes usar este método directamente, utiliza en su lugar los métodos getPwrChat, getInfo, getFullInfo (consulta https://docs.madelineproto.xyz para obtener más información): channels.getChannels
+
+No puedes usar este método directamente, utiliza en su lugar los métodos getPwrChat, getInfo, getFullInfo (consulta https://docs.madelineproto.xyz para obtener más información): channels.getFullChannel
+
+No puedes usar este método directamente, utiliza en su lugar los métodos getPwrChat, getInfo, getFullInfo (consulta https://docs.madelineproto.xyz para obtener más información): messages.getFullChat
+
+No puedes usar este método directamente, utiliza en su lugar los métodos getPwrChat, getInfo, getFullInfo (consulta https://docs.madelineproto.xyz para obtener más información): users.getFullUser
+
+No puedes usar este método directamente, utiliza en su lugar los métodos getPwrChat, getInfo, getFullInfo (consulta https://docs.madelineproto.xyz para obtener más información): users.getUsers
+
+No puedes usar este método directamente, utiliza en su lugar el método de cierre de sesión (consulta https://docs.madelineproto.xyz para obtener más información): auth.logOut
+
+No puedes usar este método directamente, utiliza en su lugar el método phoneLogin (consulta https://docs.madelineproto.xyz para obtener más información): auth.sendCode
+
+No puedes usar este método directamente, utiliza en su lugar los métodos resolveUsername, getPwrChat, getInfo, getFullInfo (consulta https://docs.madelineproto.xyz para obtener más información): contacts.resolveUsername
+
+No puedes usar este método directamente, utiliza en su lugar los métodos upload, downloadToStream, downloadToFile, downloadToDir; consulta https://docs.madelineproto.xyz para obtener más información: upload.getCdnFile
+
+No puedes usar este método directamente, utiliza en su lugar los métodos upload, downloadToStream, downloadToFile, downloadToDir; consulta https://docs.madelineproto.xyz para obtener más información: upload.getCdnFileHashes
+
+No puedes usar este método directamente, utiliza en su lugar los métodos upload, downloadToStream, downloadToFile, downloadToDir; consulta https://docs.madelineproto.xyz para obtener más información: upload.getFile
+
+No puedes usar este método directamente, utiliza en su lugar los métodos upload, downloadToStream, downloadToFile, downloadToDir; consulta https://docs.madelineproto.xyz para obtener más información: upload.getFileHashes
+
+No puedes usar este método directamente, utiliza en su lugar los métodos upload, downloadToStream, downloadToFile, downloadToDir; consulta https://docs.madelineproto.xyz para obtener más información: upload.reuploadCdnFile
+
+No puedes usar este método directamente, utiliza en su lugar los métodos upload, downloadToStream, downloadToFile, downloadToDir; consulta https://docs.madelineproto.xyz para obtener más información: upload.saveBigFilePart
+
+No puedes usar este método directamente, utiliza en su lugar los métodos upload, downloadToStream, downloadToFile, downloadToDir; consulta https://docs.madelineproto.xyz para obtener más información: upload.saveFilePart
+
+No puedes usar este método directamente: messages.receivedQueue
+
+No puedes usar este método directamente; usa $MadelineProto->update2fa($params) en su lugar (consulta https://docs.madelineproto.xyz para obtener más información): account.getPasswordSettings
+
+No puedes usar este método directamente; usa $MadelineProto->update2fa($params) en su lugar (consulta https://docs.madelineproto.xyz para obtener más información): account.updatePasswordSettings
+
+cuenta.getCollectibleEmojiStatuses
+
+cuenta.getPaidMessagesRevenue
+
+cuenta.getSavedMusicIds
+
+cuenta.getUniqueGiftChatThemes
+
+cuenta.saveMusic
+
+cuenta.setMainProfileTab
+
+cuenta.toggleNoPaidMessagesException
+
+decodificación de URL base64: base64urlDecode
+
+bots.getBotRecommendations
+
+bots.setCustomVerification
+
+canales.checkSearchPostsFlood
+
+canales.getMessageAuthor
+
+canales.setMainProfileTab
+
+canales.alternarAutotraducción
+
+canales.actualizarMensajesPagadosPrecio
+
+contactos.getSponsoredPeers
+
+invocarConReCaptcha
+
+mensajes.appendTodoList
+
+mensajes.getSavedDialogsByID
+
+mensajes.leerHistorialGuardado
+
+mensajes.reportMessagesDelivery
+
+mensajes.alternarAprobaciónDePublicaciónSugerida
+
+mensajes.toggleTodoCompletado
+
+decodificación RLE de byte nulo: rleDecode
+
+codificación RLE de byte nulo: rleEncode
+
+pagos.canPurchaseStore
+
+pagos.checkCanSendGift
+
+pagos.createStarGiftCollection
+
+pagos.eliminarStarGiftCollection
+
+pagos.getResaleStarGifts
+
+pagos.getSavedStarGift
+
+pagos.getSavedStarGifts
+
+pagos.getStarGiftCollections
+
+pagos.getStarGiftUpgradePreview
+
+pagos.getStarGiftWithdrawalUrl
+
+pagos.getUniqueStarGift
+
+pagos.getUniqueStarGiftValueInfo
+
+pagos.reordenarStarGiftCollections
+
+pagos.toggleChatStarGiftNotifications
+
+pagos.toggleStarGiftsPinnedToTop
+
+pagos.transferStarGift
+
+pagos.actualizarStarGiftCollection
+
+pagos.actualizarStarGiftPrice
+
+pagos.upgradeStarGift
+
+teléfono.crearConferenciaLlamada
+
+teléfono.declinarConferenciaLlamadaInvitar
+
+teléfono.eliminarParticipantes de la Llamada en Conferencia
+
+teléfono.getGroupCallChainBlocks
+
+teléfono.invitarParticipante de la llamada en conferencia
+
+teléfono.enviarConferenciaLlamadaDifusión
+
+historias.createAlbum
+
+historias.eliminarálbum
+
+historias.getAlbumStories
+
+historias.getAlbums
+
+historias.reordenarálbumes
+
+historias.actualizarÁlbum
+
+usuarios.obtenerRequisitosParaContacto
+
+usuarios.getSavedMusic
+
+usuarios.getSavedMusicByID
+
