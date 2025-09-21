@@ -1,0 +1,64 @@
+LICENCIA PÚBLICA GENERAL MENOR DE GNU
+
+Versión 3, 29 de junio de 2007
+
+Derechos de autor © 2007 Free Software Foundation, Inc. < https://fsf.org/ >
+
+A todo el mundo se le permite copiar y distribuir copias textuales de este documento de licencia, pero no se permite modificarlo.
+
+Esta versión de la Licencia Pública General Reducida de GNU incorpora los términos y condiciones de la versión 3 de la Licencia Pública General de GNU, complementados con los permisos adicionales que se enumeran a continuación.
+
+0. Definiciones adicionales.
+
+Tal como se utiliza en este documento, “esta Licencia” se refiere a la versión 3 de la Licencia Pública General Reducida de GNU, y “GPL de GNU” se refiere a la versión 3 de la Licencia Pública General de GNU.
+
+“La Biblioteca” se refiere a una obra cubierta regida por esta Licencia, que no sea una Aplicación o una Obra Combinada según se define a continuación.
+
+Una "Aplicación" es cualquier trabajo que utiliza una interfaz proporcionada por la Biblioteca, pero que no se basa en ella. Definir una subclase de una clase definida por la Biblioteca se considera un modo de usar una interfaz proporcionada por la Biblioteca.
+
+Una «Obra Combinada» es una obra producida mediante la combinación o vinculación de una Aplicación con la Biblioteca. La versión específica de la Biblioteca con la que se creó la Obra Combinada también se denomina «Versión Vinculada».
+
+La “Fuente Correspondiente Mínima” para un Trabajo Combinado significa la Fuente Correspondiente para el Trabajo Combinado, excluyendo cualquier código fuente de partes del Trabajo Combinado que, consideradas de forma aislada, se basan en la Aplicación y no en la Versión Vinculada.
+
+El “Código de Aplicación Correspondiente” para un Trabajo Combinado significa el código objeto y/o código fuente de la Aplicación, incluidos todos los datos y programas de utilidad necesarios para reproducir el Trabajo Combinado desde la Aplicación, pero excluyendo las Bibliotecas del Sistema del Trabajo Combinado.
+
+1. Excepción a la Sección 3 de la GPL de GNU.
+
+Puede transmitir una obra amparada por las secciones 3 y 4 de esta Licencia sin estar obligado por la sección 3 de la GPL de GNU.
+
+2. Transmisión de versiones modificadas.
+
+Si modifica una copia de la Biblioteca y, en sus modificaciones, una facilidad hace referencia a una función o datos que debe suministrar una Aplicación que utiliza la facilidad (excepto como un argumento que se pasa cuando se invoca la facilidad), entonces puede transmitir una copia de la versión modificada:
+
+a) bajo esta Licencia, siempre que usted haga un esfuerzo de buena fe para garantizar que, en caso de que una Aplicación no proporcione la función o los datos, la función aún funcione y realice cualquier parte de su propósito que siga siendo significativo, o
+b) bajo la GNU GPL, sin que ninguno de los permisos adicionales de esta Licencia sea aplicable a esa copia.
+3. Código objeto que incorpora material de los archivos de encabezado de la biblioteca.
+
+El código objeto de una Aplicación puede incorporar material de un archivo de encabezado que forma parte de la Biblioteca. Puede transmitir dicho código objeto bajo los términos que elija, siempre que, si el material incorporado no se limita a parámetros numéricos, diseños de estructuras de datos y accesores, o pequeñas macros, funciones en línea y plantillas (de diez líneas o menos), cumpla con ambas condiciones siguientes:
+
+a) Dar aviso destacado con cada copia del código objeto de que la Biblioteca se utiliza en ella y que la Biblioteca y su uso están cubiertos por esta Licencia.
+b) Acompañar el código objeto con una copia de la GPL de GNU y de este documento de licencia.
+4. Obras Combinadas.
+
+Usted puede transmitir un Trabajo Combinado bajo los términos de su elección que, en conjunto, no restrinjan efectivamente la modificación de las partes de la Biblioteca contenidas en el Trabajo Combinado y la ingeniería inversa para depurar dichas modificaciones, si también realiza cada una de las siguientes acciones:
+
+a) Dar aviso destacado con cada copia de la Obra Combinada de que en ella se utiliza la Biblioteca y que la Biblioteca y su uso están cubiertos por esta Licencia.
+b) Acompañar la Obra Combinada con una copia de la GPL de GNU y de este documento de licencia.
+c) Para un Trabajo Combinado que muestre avisos de derechos de autor durante su ejecución, incluya el aviso de derechos de autor de la Biblioteca entre estos avisos, así como una referencia que dirija al usuario a las copias de la GPL de GNU y este documento de licencia.
+d) Realice una de las siguientes acciones:
+0) Transmitir el Código Fuente Correspondiente Mínimo bajo los términos de esta Licencia, y el Código de Aplicación Correspondiente en una forma adecuada y bajo términos que permitan al usuario recombinar o revincular la Aplicación con una versión modificada de la Versión Vinculada para producir un Trabajo Combinado modificado, en la manera especificada por la sección 6 de la GPL de GNU para transmitir el Código Fuente Correspondiente.
+1) Utilizar un mecanismo de biblioteca compartida adecuado para la vinculación con la Biblioteca. Un mecanismo adecuado es aquel que (a) utiliza en tiempo de ejecución una copia de la Biblioteca ya presente en el sistema informático del usuario, y (b) funciona correctamente con una versión modificada de la Biblioteca que sea compatible con la interfaz de la Versión Vinculada.
+e) Proporcionar Información de Instalación, pero solo si se le exige proporcionar dicha información según la sección 6 de la GPL de GNU, y solo en la medida en que sea necesaria para instalar y ejecutar una versión modificada de la Obra Combinada generada al recombinar o revincular la Aplicación con una versión modificada de la Versión Vinculada. (Si utiliza la opción 4d0, la Información de Instalación debe acompañar el Código Fuente Mínimo Correspondiente y el Código de Aplicación Correspondiente. Si utiliza la opción 4d1, debe proporcionar la Información de Instalación según lo especificado en la sección 6 de la GPL de GNU para la transmisión del Código Fuente Correspondiente).
+5. Bibliotecas combinadas.
+
+Puede colocar instalaciones de biblioteca que sean un trabajo basado en la Biblioteca una al lado de la otra en una sola biblioteca junto con otras instalaciones de biblioteca que no sean Aplicaciones y no estén cubiertas por esta Licencia, y transmitir dicha biblioteca combinada bajo los términos de su elección, si hace ambas de las siguientes:
+
+a) Acompañar a la biblioteca combinada con una copia de la misma obra basada en la Biblioteca, sin combinar con ninguna otra facilidad de la biblioteca, transferida bajo los términos de esta Licencia.
+b) Dar aviso destacado junto con la biblioteca combinada de que parte de ella es una obra basada en la Biblioteca, y explicar dónde encontrar la forma no combinada que la acompaña de la misma obra.
+6. Versiones revisadas de la Licencia Pública General Reducida de GNU.
+
+La Free Software Foundation podrá publicar versiones revisadas o nuevas de la Licencia Pública General Reducida de GNU periódicamente. Estas nuevas versiones serán similares en esencia a la versión actual, pero podrán diferir en detalles para abordar nuevos problemas o inquietudes.
+
+Cada versión tiene un número de versión distintivo. Si la Biblioteca, tal como la recibió, especifica que se aplica una versión numerada de la Licencia Pública General Reducida de GNU o cualquier versión posterior, tiene la opción de seguir los términos y condiciones de esa versión publicada o de cualquier versión posterior publicada por la Free Software Foundation. Si la Biblioteca, tal como la recibió, no especifica un número de versión de la Licencia Pública General Reducida de GNU, puede elegir cualquier versión de la Licencia Pública General Reducida de GNU publicada por la Free Software Foundation.
+
+Si la Biblioteca tal como usted la recibió especifica que un apoderado puede decidir si se aplicarán versiones futuras de la Licencia Pública General Reducida de GNU, la declaración pública de aceptación de cualquier versión por parte de ese apoderado es una autorización permanente para que usted elija esa versión para la Biblioteca.
