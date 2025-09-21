@@ -1,0 +1,12 @@
+use danog\MadelineProto\Stream\Proxy\SocksProxy;
+
+$settings = new Connection;
+$settings->addProxy(
+    SocksProxy::class, 
+    [
+        'address'  => '0.0.0.0',
+        'port'     =>  2343,
+    ]
+);
+
+$MadelineProto->updateSettings($settings);
