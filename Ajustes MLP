@@ -1,0 +1,24 @@
+AppInfo: Información de la aplicación.
+Aut: Configuración de criptografía.
+Conexión: Configuración de conexión.
+Archivos: Configuración de gestión de archivos.
+Registrador: Configuración del registrador.
+Peer: Configuración de la base de datos de pares.
+Pwr: Configuración de PWRTelegram.
+RPC: Configuración de RPC.
+SecretChats: Configuración del chat secreto.
+Serialización: Configuración de serialización.
+TLSchema: configuración del esquema TL.
+Plantillas: configuraciones de plantillas web y CLI para iniciar sesión.
+VoIP: Configuración de VoIP.
+Base de datos\Memoria: Configuración del backend de memoria.
+Base de datos\Mysql: configuración del backend de MySQL.
+Base de datos\Postgres: configuración del backend de Postgres.
+Base de datos\Redis: configuración del backend de Redis.
+Estas clases se pueden instanciar y pasar individualmente a MadelineProto:
+
+$settings = (new \danog\MadelineProto\Settings\AppInfo)
+    ->setApiId(124)
+    ->setApiHash('xx');
+
+$API = new \danog\MadelineProto\API('session.madeline', $settings);
