@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>Recent RFCs</title>
+		<link>https://www.rfc-editor.org/</link>
+		<description>Recently published RFCs</description>
+		<language>en-us</language>
+		<lastBuildDate>Thu, 18 Sep 2025 12:56:06 -0700</lastBuildDate>
+			<item>
+		<title>RFC 9840: rLEDBAT: Receiver-Driven Low Extra Delay Background Transport for TCP</title>
+		<link>https://www.rfc-editor.org/info/rfc9840</link>
+		<description>This document specifies receiver-driven Low Extra Delay Background
+Transport (rLEDBAT) -- a set of mechanisms that enable the execution
+of a less-than-best-effort congestion control algorithm for TCP at
+the receiver end. This document is a product of the Internet
+Congestion Control Research Group (ICCRG) of the Internet Research
+Task Force (IRTF).</description>
+	</item>
+			<item>
+		<title>RFC 9824: Compact Denial of Existence in DNSSEC</title>
+		<link>https://www.rfc-editor.org/info/rfc9824</link>
+		<description>This document describes a technique to generate a signed DNS response
+on demand for a nonexistent name by claiming that the name exists but
+doesn't have any data for the queried record type. Such responses
+require only one minimally covering NSEC or NSEC3 record, allow
+online signing servers to minimize signing operations and response
+sizes, and prevent zone content disclosure. 
+
+This document updates RFCs 4034 and 4035.</description>
+	</item>
+			<item>
+		<title>RFC 9879: Use of Password-Based Message Authentication Code 1 (PBMAC1) in PKCS #12 Syntax</title>
+		<link>https://www.rfc-editor.org/info/rfc9879</link>
+		<description>This document specifies additions and amendments to RFCs 7292 and
+8018. It also obsoletes the RFC 9579. It defines a way to use the
+Password-Based Message Authentication Code 1 (PBMAC1), defined in RFC
+8018, inside the PKCS #12 syntax. The purpose of this specification
+is to permit the use of more modern Password-Based Key Derivation
+Functions (PBKDFs) and allow for regulatory compliance.</description>
+	</item>
+			<item>
+		<title>RFC 9826: A YANG Data Model for the Path Computation Element Communication Protocol (PCEP)</title>
+		<link>https://www.rfc-editor.org/info/rfc9826</link>
+		<description>This document defines a YANG data model for the management of the
+Path Computation Element Communication Protocol (PCEP) for
+communications between a Path Computation Client (PCC) and a Path
+Computation Element (PCE), or between two PCEs.</description>
+	</item>
+			<item>
+		<title>RFC 9830: Advertising Segment Routing Policies in BGP</title>
+		<link>https://www.rfc-editor.org/info/rfc9830</link>
+		<description>A Segment Routing (SR) Policy is an ordered list of segments (also
+referred to as &quot;instructions&quot;) that define a source-routed policy. An
+SR Policy consists of one or more Candidate Paths (CPs), each
+comprising one or more segment lists. A headend can be provisioned
+with these CPs using various mechanisms such as Command-Line
+Interface (CLI), Network Configuration Protocol (NETCONF), Path
+Computation Element Communication Protocol (PCEP), or BGP.
+
+This document specifies how BGP can be used to distribute SR Policy
+CPs. It introduces a BGP SAFI for advertising a CP of an SR Policy
+and defines sub-TLVs for the Tunnel Encapsulation Attribute to signal
+information related to these CPs.
+
+Furthermore, this document updates RFC 9012 by extending the Color
+Extended Community to support additional steering modes over SR
+Policy.</description>
+	</item>
+			<item>
+		<title>RFC 9820: Authentication Service Based on the Extensible Authentication Protocol (EAP) for Use with the Constrained Application Protocol (CoAP)</title>
+		<link>https://www.rfc-editor.org/info/rfc9820</link>
+		<description>This document specifies an authentication service that uses the
+Constrained Application Protocol (CoAP) as a transport method to
+carry the Extensible Authentication Protocol (EAP). As such, it
+defines an EAP lower layer based on CoAP called &quot;CoAP-EAP&quot;. One of
+the main goals is to authenticate a CoAP-enabled Internet of Things
+(IoT) device (EAP peer) that intends to join a security domain
+managed by a Controller (EAP authenticator). Secondly, it allows
+deriving key material to protect CoAP messages exchanged between them
+based on Object Security for Constrained RESTful Environments
+(OSCORE), enabling the establishment of a security association
+between them.</description>
+	</item>
+			<item>
+		<title>RFC 9843: IGP Flexible Algorithms: Bandwidth, Delay, Metrics, and Constraints</title>
+		<link>https://www.rfc-editor.org/info/rfc9843</link>
+		<description>Many networks configure the IGP link metric relative to the link
+capacity, and high bandwidth traffic gets routed per the link
+capacity. Flexible Algorithms provide mechanisms to create
+constraint-based paths in an IGP. This specification documents a
+generic metric-type and a set of bandwidth-related constraints to be
+used in Flexible Algorithms. 
+
+This document updates RFC 9350.</description>
+	</item>
+			<item>
+		<title>RFC 9831: Segment Type Extensions for BGP Segment Routing (SR) Policy</title>
+		<link>https://www.rfc-editor.org/info/rfc9831</link>
+		<description>This document specifies the signaling of additional Segment Routing
+(SR) Segment Types for SR Policies in BGP using the SR Policy
+Subsequent Address Family Identifier (SAFI).</description>
+	</item>
+			<item>
+		<title>RFC 9832: BGP Classful Transport Planes</title>
+		<link>https://www.rfc-editor.org/info/rfc9832</link>
+		<description>This document specifies a mechanism referred to as &quot;Intent-Driven
+Service Mapping&quot;. The mechanism uses BGP to express Intent-based
+association of overlay routes with underlay routes having specific
+Traffic Engineering (TE) characteristics satisfying a certain Service
+Level Agreement (SLA). This is achieved by defining new constructs to
+group underlay routes with sufficiently similar TE characteristics
+into identifiable classes (called &quot;Transport Classes&quot; or &quot;TCs&quot;), that
+overlay routes use as an ordered set to resolve reachability
+(Resolution Schemes) towards service endpoints. These constructs can
+be used, for example, to realize the &quot;IETF Network Slice&quot; defined in
+the TEAS Network Slices framework (RFC 9543).
+
+Additionally, this document specifies protocol procedures for BGP
+that enable dissemination of service mapping information in a network
+that may span multiple cooperating administrative domains. These
+domains may be administered either by the same provider or by closely
+coordinating providers. A new BGP address family that leverages the
+procedures described in RFC 4364 (&quot;BGP/MPLS IP Virtual Private
+Networks (VPNs)&quot;) and follows the NLRI encoding described in RFC 8277
+(&quot;Using BGP to Bind MPLS Labels to Address Prefixes&quot;) is defined to
+enable each advertised underlay route to be identified by its class.
+This new address family is called &quot;BGP Classful Transport&quot; (or &quot;BGP
+CT&quot;).</description>
+	</item>
+			<item>
+		<title>RFC 9828: RTP Payload Format for JPEG 2000 Streaming with Sub-Codestream Latency</title>
+		<link>https://www.rfc-editor.org/info/rfc9828</link>
+		<description>This document defines the RTP payload format for the streaming of a
+video signal encoded as a sequence of JPEG 2000 codestreams. The
+format allows sub-codestream latency, such that the first RTP packet
+for a given image can be emitted before the entire image is available
+to or encoded by the sender.</description>
+	</item>
+			<item>
+		<title>RFC 9787: Guidance on End-to-End Email Security</title>
+		<link>https://www.rfc-editor.org/info/rfc9787</link>
+		<description>End-to-end cryptographic protections for email messages can provide
+useful security. However, the standards for providing cryptographic
+protection are extremely flexible. That flexibility can trap users
+and cause surprising failures. This document offers guidance for Mail
+User Agent (MUA) implementers to help mitigate those risks and to
+make end-to-end email simple and secure for the end user. It provides
+a useful set of vocabulary as well as recommendations to avoid common
+failures. It also identifies a number of currently unsolved usability
+and interoperability problems.</description>
+	</item>
+			<item>
+		<title>RFC 9788: Header Protection for Cryptographically Protected Email</title>
+		<link>https://www.rfc-editor.org/info/rfc9788</link>
+		<description>S/MIME version 3.1 introduced a mechanism to provide end-to-end
+cryptographic protection of email message headers. However, few
+implementations generate messages using this mechanism, and several
+legacy implementations have revealed rendering or security issues
+when handling such a message.
+
+This document updates the S/MIME specification (RFC 8551) to offer a
+different mechanism that provides the same cryptographic protections
+but with fewer downsides when handled by legacy clients. Furthermore,
+it offers more explicit usability, privacy, and security guidance for
+clients when generating or handling email messages with cryptographic
+protection of message headers.
+
+The Header Protection scheme defined here is also applicable to
+messages with PGP/MIME (Pretty Good Privacy with MIME) cryptographic
+protections.</description>
+	</item>
+			<item>
+		<title>RFC 9844: Entering IPv6 Zone Identifiers in User Interfaces</title>
+		<link>https://www.rfc-editor.org/info/rfc9844</link>
+		<description>This document describes how the zone identifier of an IPv6 scoped
+address, defined in the IPv6 Scoped Address Architecture
+specification (RFC 4007), should be entered into a user interface.
+This document obsoletes RFC 6874 and updates RFCs 4007, 7622, and
+8089.</description>
+	</item>
+			<item>
+		<title>RFC 9837: The IPv6 VPN Service Destination Option</title>
+		<link>https://www.rfc-editor.org/info/rfc9837</link>
+		<description>This document describes an experiment in which VPN service
+information is encoded in an experimental IPv6 Destination Option.
+The experimental IPv6 Destination Option is called the VPN Service
+Option.
+
+One purpose of this experiment is to demonstrate that the VPN Service
+Option can be deployed in a production network.  Another purpose is
+to demonstrate that the security measures described in this document
+are sufficient to protect a VPN.  Finally, this document encourages
+replication of the experiment.</description>
+	</item>
+			<item>
+		<title>RFC 9839: Unicode Character Repertoire Subsets</title>
+		<link>https://www.rfc-editor.org/info/rfc9839</link>
+		<description>This document discusses subsets of the Unicode character repertoire
+for use in protocols and data formats and specifies three subsets
+recommended for use in IETF specifications.</description>
+	</item>
+		</channel>
+</rss>
