@@ -1,0 +1,14 @@
+use danog\MadelineProto\Stream\Proxy\HttpProxy;
+
+$settings = new Connection;
+$settings->addProxy(
+    HttpProxy::class, 
+    [
+        'address'  => '0.0.0.0',
+        'port'     =>  2343,
+        'username' => 'username',
+        'password' => 'password',
+    ]
+);
+
+$MadelineProto->updateSettings($settings);
