@@ -1,0 +1,43 @@
+MTProto 2.0, parte I
+
+Chats en la nube (cifrado servidor-cliente)
+
+a cifrar
+
+clave compartida (auth_key) persistente, generada a través de DH
+
+Salt de 64 bits
+
+Session_id de 64 bits
+
+Carga útil *
+
+Relleno de 12 a 1024 bytes
+
+SHA-256
+
+Nota:
+
+La carga útil siempre contiene la hora, la longitud y el número de secuencia que la parte receptora debe comprobar después del descifrado.
+
+KDF SHA-256
+
+msg_key
+
+Clave AES de 256 bits
+
+AES IGE IV de 256 bits
+
+Cifrado AES IGE
+
+auth_key_id
+
+64 bits
+
+clave msg de 128 bits
+
+Datos cifrados
+
+incrustados en el protocolo de transporte (TCP, HTTP, ...)
+
+Importante: Después del descifrado, el receptor debe comprobar que msg_key = SHA-256 (fragmento de auth_key + datos descifrados)
