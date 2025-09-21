@@ -1,0 +1,71 @@
+{{Libzypp satsolver navbar}}
+{{Intro|SAT solver library is the most powerful package dependency solver and repository storage system available for Linux.}}
+
+==Dependency solving==
+
+Solving dependencies is the core functionality for any [[Package management|software management application]] on Linux.
+
+[[Package_management#Package_dependencies|Dependencies]] are used to divide and share functionalities across multiple software elements.
+
+Linux (and Unix) follows two basic concepts to implement [[wikipedia:Divide_and_conquer_algorithm|Divide & Conquer]] - breaking a large problem into smaller, more manageable ones.
+
+* Make each program do one thing well. See [http://www.faqs.org/docs/artu/ch01s06.html  Basics of the Unix Philosophy] for details.
+* Use [[wikipedia:Library_(computer_science)#Shared_library|shared libraries]] to share implementations and save disk and memory space
+
+Every software package expresses the functionalities it provides to others and those it requires from others through dependencies.
+
+The task of the '''dependency resolver''' is to check and fulfill all these relations when managing software.
+
+=== Basic laws of resolving ===
+
+The dependency solver tries to solve dependencies without user intervention based on two basic rules
+
+# Fulfill the install/remove requests given at start
+# Keep the (dependencies of the) installed system consistent
+
+Since the solver treats every package alike, these rules have some major and sometimes unexpected implications. A broken dependency might result in removal of lots of packages - the resulting system is still consistent but probably highly unusable.
+
+----
+
+==Features==
+Using a '''Satisfiability Solver''' to compute package dependencies. Its based on expressing [[Package_management#Package_dependencies|package dependencies]] as a [[wikipedia:Boolean_satisfiability_problem|boolean satisfiability problem]].
+
+* See [http://files.opensuse.org/opensuse/en/b/b9/Fosdem2008-solver.pdf FOSDEM 2008 presentation]
+* See [http://tinyurl.com/yfpujd3 Michael Schroeder's FOSDEM 2008 video talk]
+
+===Background & Information===
+
+The sat solver implementation as it appears in openSUSE 11.0 is based on two major, but independent, blocks
+
+# Using a dictionary approach to store and retrieve package and dependency information.
+# Using satisfiability, a well known and researched topic, for computing package dependencies.
+
+The basics of using a satisfiability solver to solve package dependencies are detailed in [[openSUSE:Libzypp satsolver basics|SAT solver basics]] and [[openSUSE:Libzypp satsolver internals|SAT solver internals]] for more.
+
+*See the [http://git.opensuse.org/autodocs/satsolver/HEAD/historypage.html history of SAT solver].
+*See <!-- the [http://idea.opensuse.org/content/ideas/fast-installation-tool motivation], and -->the available [http://files.opensuse.org/opensuse/en/b/b9/Fosdem2008-solver.pdf FOSDEM2008 presentation].
+
+----
+
+==Developer documentation==
+{{Version note|HEAD| [http://doc.opensuse.org/projects/satsolver/HEAD/ Developer Documentation]}} 
+{{Version note|11.3| [http://doc.opensuse.org/projects/satsolver/11.3/ Developer Documentation]}} 
+{{Version note|11.2| [http://doc.opensuse.org/projects/satsolver/11.2/ Developer Documentation]}} 
+
+----
+
+==See also==
+Tools and libraries using SAT solver.
+
+*[[Portal:Libzypp|Libzypp]]
+*[[Portal:Zypper|ZYpper]]
+*[[Portal:SUSE Studio|SUSE Studio]]
+
+----
+==External links==
+*[[wikipedia:ZYpp|Zypp]] on Wikipedia.
+*[[wikipedia:Boolean_satisfiability_problem|Boolean satisfiability problem]] on Wikipedia.
+
+[[Category:Libzypp]]
+
+[[ja:openSUSE:Libzypp SAT ソルバー]]
