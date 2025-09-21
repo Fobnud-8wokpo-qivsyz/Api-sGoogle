@@ -1,0 +1,14 @@
+use danog\MadelineProto\Settings\Connection;
+use danog\MadelineProto\Stream\MTProtoTransport\ObfuscatedStream;
+
+$settings = new Connection;
+$settings->addProxy(
+    ObfuscatedStream::class, 
+    [
+        'address' => 'magtg.com',
+        'port'    =>  443,
+        'secret'  => 'dd.....'
+    ]
+);
+
+$MadelineProto->updateSettings($settings);
