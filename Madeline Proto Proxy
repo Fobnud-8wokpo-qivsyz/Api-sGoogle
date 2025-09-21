@@ -1,0 +1,49 @@
+use danog\MadelineProto\Stream\MTProtoTransport\ObfuscatedStream;
+use danog\MadelineProto\Stream\Proxy\HttpProxy;
+use danog\MadelineProto\Stream\Proxy\SocksProxy;
+use danog\MadelineProto\Settings\Connection;
+use my\Custom\Namespace\MyProxy;
+
+$settings = new Connection;
+$settings->addProxy(
+    ObfuscatedStream::class, 
+    [
+        'address' => 'magtg.com',
+        'port'    =>  443,
+        'secret'  => 'dd.....'
+    ]
+);
+$settings->addProxy(
+    ObfuscatedStream::class, 
+    [
+        'address' => 'magtg2.com',
+        'port'    =>  443,
+        'secret'  => 'dd.....'
+    ]
+);
+$settings->addProxy(
+    HttpProxy::class,
+    [
+        'address'  => '0.0.0.0',
+        'port'     =>  80,
+        'username' => 'user',
+        'password' => 'pass'
+    ],
+);
+$settings->addProxy(
+    SocksProxy::class,
+    [
+        'address'  => '0.0.0.0',
+        'port'     =>  80,
+        'username' => 'user',
+        'password' => 'pass'
+    ],
+);
+$settings->addProxy(
+    MyProxy::class,
+    [
+        'custom' => 'data'
+    ],
+);
+
+$MadelineProto->updateSettings($settings);
