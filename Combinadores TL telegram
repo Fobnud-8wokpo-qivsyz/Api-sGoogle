@@ -1,0 +1,13 @@
+combinator-decl ::= id-combinador-completo { opt-args } { args } = tipo-resultado ;
+id-combinador-completo ::= lc-ident-full | _
+id-combinador ::= lc-ident-ns | _
+opt-args ::= var { -ident { var -ident } : [ marca-excl ] expresión -tipo }
+args ::= var-ident-opt [ definición - arg - condicional ] [ ] término -tipo args :: = [ ] término - tipo multiplicidad ::= término - nat var - ident - opt ::= var- ident | definición de argumento condicional ::= ident-var [ const-nat ] tipo-resultado ::= ident-tipo-encajonado { subexpr } tipo-resultado ::= ident-tipo-encajonado subexpr { subexpr } :!
+: *[]
+( :! )
+!
+
+_
+. ?
+
+< , >
