@@ -1,1 +1,1 @@
-cd /ruta/a/Api-sGoogle
+pip install -r requirements.txt
