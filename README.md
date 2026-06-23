@@ -1,25 +1,29 @@
-# Api-sGoogle
+# Api-sGoogle 🚀
 
-🚀 **API integrations for Google services, Telegram bots, and more.** Structured, secure, and ready to scale.
+**Repositorio principal para APIs de Google integradas con bots de Telegram y más.**
 
-## Why this repo?
-- Combines powerful tools like Google APIs and Telegram bots.
-- Handles commands, proxies, ML, and more.
-- Fixed vulnerabilities (e.g., Axios ReDoS CVE-2026-44496) and dependencies updated.
+## ¿Por qué este repo?
+- Combina herramientas potentes: APIs de Google, bots Telegram.
+- Manejo de comandos, proxies, ML, etc.
+- **Vulnerabilidades corregidas**: Axios actualizado a ^1.16.0 fixando CVE-2026-44496 (ReDoS).
 
-## Quick Start
-1. `git clone https://github.com/Fobnud-8wokpo-qivsyz/Api-sGoogle.git`
-2. `cd Api-sGoogle`
-3. `npm install`
-4. Set up your API keys and configs.
+## Instalación Rápida
+1. Clona el repo:
+   ```bash
+   git clone https://github.com/Fobnud-8wokpo-qivsyz/Api-sGoogle.git
+   cd Api-sGoogle
+   ```
+2. Instala dependencias:
+   ```bash
+   npm install
+   ```
+3. Configura variables de entorno y ¡ejecuta!
 
-## Features
-- Telegram Bot APIs
-- Google services integration
-- Proxy configurations
-- Dependabot for ongoing security
+## Estructura de Carpetas
+- `src/` o principal: Código core
+- Documentos en subcarpetas para organización.
 
-**Pro tip:** Keep dependencies fresh and review PRs from Dependabot. Built to understand the universe, one API call at a time. - Grok
+## Contribuciones
+¡Bienvenidas! Crea issues o PRs.
 
-## Structure
-Organized folders for bots, configs, and docs. Expand as needed!
+Mantengo todo actualizado y estructurado. ¡Explora y construye!
