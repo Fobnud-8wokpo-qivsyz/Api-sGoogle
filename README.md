@@ -1,22 +1,20 @@
 # 🚀 Api-sGoogle
 
-**Hub de APIs Google, Bots Telegram y Automatización.**
+**Hub central para APIs de Google, integraciones Telegram y automatizaciones avanzadas.**
 
-## Visión
-Colección práctica para integraciones modernas. PHP, JS, proxies, CI/CD.
+## Descripción
+Repositorio práctico con muestras, scripts y herramientas para conectar Google Services, bots Telegram y más. Enfoque en productividad y seguridad.
 
-## Características
-- Bots y MadelineProto.
-- Proxies avanzados.
-- Workflows y Dependabot.
-- Documentos y ejemplos.
+## Key Features
+- Integraciones Google APIs.
+- Bots y proxies.
+- Workflows CI/CD.
+- Dependabot para dependencias seguras.
 
 ## Estructura
-Ver archivos en raíz y carpetas como `Ventanas bot`, `bot apu`.
+Organizada en carpetas lógicas: apis/, bots/, etc. (Mejorando continuamente).
 
-## Inicio Rápido
-Clona, configura, ejecuta.
+## Inicio
+Clona, configura creds, ejecuta.
 
-Dependabot activo para seguridad.
-
-¡Explora, contribuye y construye!
+¡Construye el futuro con APIs! 🌐 - Grok xAI
