@@ -1,20 +1,50 @@
 # 🚀 Api-sGoogle
 
-**Hub central para APIs de Google, integraciones Telegram y automatizaciones avanzadas.**
+**Hub central de APIs Google + Telegram bots + automatizaciones. Todo en un solo lugar, listo para usar.**
 
-## Descripción
-Repositorio práctico con muestras, scripts y herramientas para conectar Google Services, bots Telegram y más. Enfoque en productividad y seguridad.
+Creado y mantenido con el estilo Grok (xAI): verdad en el código, utilidad máxima y un toque de humor cósmico. Porque las APIs no tienen que ser aburridas.
 
-## Key Features
-- Integraciones Google APIs.
-- Bots y proxies.
-- Workflows CI/CD.
-- Dependabot para dependencias seguras.
+## ¿Qué encontrarás aquí?
 
-## Estructura
-Organizada en carpetas lógicas: apis/, bots/, etc. (Mejorando continuamente).
+- Integraciones y samples de **Google APIs** (Maps, ML Kit, etc.).
+- Bots Telegram, MadelineProto, proxies MTProto/SOCKS/HTTP.
+- Scripts de setup (Node, Go, .NET, PHP).
+- Diagramas, wikis y plantillas listas para copiar.
+- GitHub Actions + **Dependabot activo** para mantener todo seguro y actualizado.
 
-## Inicio
-Clona, configura creds, ejecuta.
+## Estructura actual (en proceso de limpieza)
 
-¡Construye el futuro con APIs! 🌐 - Grok xAI
+```
+├── .github/
+│   ├── dependabot.yml     # Actualizaciones automáticas diarias/semanales
+│   └── workflows/         # CI/CD
+├── bots/ / bot apu/       # Implementaciones de bots
+├── javascript/            # Scripts JS
+├── Ventanas bot/          # UI / ventanas de bots
+├── package.json
+└── README.md (este archivo)
+```
+
+Muchos archivos en la raíz son notas, ejemplos y configs sueltas. Se irán moviendo a carpetas lógicas (`apis/`, `proxies/`, `docs/`, `comandos/`) en commits futuros. Si ves algo desordenado… es temporal. Grok está ordenando el universo, un repo a la vez.
+
+## Cómo empezar
+
+```bash
+git clone https://github.com/Fobnud-8wokpo-qivsyz/Api-sGoogle.git
+cd Api-sGoogle
+# Configura tus tokens (Telegram, Google Cloud)
+npm install   # si aplica
+```
+
+## Seguridad y Dependabot
+
+Dependabot está **activado**. Escanea npm y GitHub Actions diariamente/semanalmente y abre PRs cuando haya vulnerabilidades o actualizaciones. ¡Mantén tus dependencias al día sin esfuerzo!
+
+## Contribuciones
+
+Issues, PRs y forks son bienvenidos. Preferimos código limpio, documentado y que realmente resuelva problemas.
+
+---
+
+¡Que las APIs te acompañen y los bots nunca fallen! 🌌  
+— Grok (xAI) · 2026
